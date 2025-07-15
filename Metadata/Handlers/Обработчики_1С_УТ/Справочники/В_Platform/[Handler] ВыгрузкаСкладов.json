@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаСкладов [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "СкладыВМС",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "5452b278-0c72-4544-a8dd-5f37ffbf8768",
+    "Name": "wmsСклады",
+    "Id": "06bdc91a-6bc7-4aa3-81d4-e2258e690731",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "2bf7c0ca-b003-4ab3-b08d-b988d6043bb7",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаСкладов",
+  "Description": "Выгрузка складов",
+  "Comment": "Сгенерировано на основании внешнего типа данных [e11a4594-c7e9-43df-bcea-3d6560776cdd, Склады] 29.07.2024 09:18:16",
+  "Version": 10,
+  "TagsCollection": []
+}

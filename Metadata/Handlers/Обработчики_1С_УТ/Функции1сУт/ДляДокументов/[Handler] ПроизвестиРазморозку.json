@@ -1,0 +1,40 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerFunction1C, DT_Core",
+  "Synchronously": false,
+  "Integration": "ToPlatform",
+  "Type": "Function1C",
+  "Code": "[Handler] ПроизвестиРазморозку [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ДокументОснованияЗаморозки",
+      "Id": "45e2f98e-27e0-4618-ae58-5e5af3f28184",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": null,
+  "FolderId": "d9e5787c-faae-44bb-81b1-f4a8b5bc0ce6",
+  "EntityId": "7787d495-bd85-4c2b-84eb-1bb3dab2ff6a",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ПроизвестиРазморозку",
+  "Description": "ПроизвестиРазморозку",
+  "Comment": null,
+  "Version": 9,
+  "TagsCollection": []
+}

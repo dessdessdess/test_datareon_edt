@@ -1,0 +1,170 @@
+{
+  "$type": "DT.MdmMetadata.Algorithms.Algorithm, DT_Core",
+  "Code": "[Algorithm] nipРазборОтветаОтБэкаНиппеля [Code].ext",
+  "ProcessVariable": null,
+  "ModuleId": null,
+  "AutoStart": false,
+  "IsPure": false,
+  "FolderId": "6abb778c-8786-4d55-afde-c20a8482966c",
+  "ProcessVariableNotUsed": false,
+  "Variables": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": true,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "request",
+        "Id": "107816f0-f292-4e6c-980b-55b9ef9e51d9",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": false
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": true,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "response",
+        "Id": "5c132e91-95b1-4ca8-b535-4c04c5acf51a",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": false
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+        "DataTypeId": "ca0b0865-c514-463b-a676-88096295d301",
+        "Name": "errors",
+        "Id": "683c6f03-ec2a-4555-a3f8-b3bc46a5864a",
+        "IsArray": true,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": false,
+      "OutVariable": true
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": true,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "filteredRequest",
+        "Id": "07acdb02-002e-4b14-ba4a-81dee83cdd28",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": false,
+      "OutVariable": true
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": true,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "errorsString",
+        "Id": "6a702d8b-5dc2-4cd1-96db-f6531e8dc5b9",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": false,
+      "OutVariable": true
+    }
+  ],
+  "Values": [],
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "request": 4,
+    "response": 2,
+    "errors": 3,
+    "filteredRequest": 5,
+    "errorsString": 6
+  },
+  "EntityId": "b8bc5fec-9707-44f9-aba2-4015582237b7",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipРазборОтветаОтБэкаНиппеля",
+  "Description": "(Ниппель) Разбор ответа от бэка Ниппеля",
+  "Comment": null,
+  "Version": 68,
+  "TagsCollection": []
+}

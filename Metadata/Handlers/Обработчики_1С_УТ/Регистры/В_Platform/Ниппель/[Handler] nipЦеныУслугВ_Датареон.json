@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipЦеныУслугВ_Датареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ЦеныУслугНиппель",
+  "SystemDataTypeId": "1f00f5bd-bd96-488d-9393-45a443118bd4",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "747126b3-929c-4686-b025-2a472730aeae",
+    "Name": "nipЦеныУслуг",
+    "Id": "f405196a-db7e-4a07-a7db-c75d90e23150",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "481f512f-e961-4b41-a915-fafb24b7b5fd",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipЦеныУслугВ_Датареон",
+  "Description": "(Ниппель) Цены услуг в Datareon",
+  "Comment": "Для выгрузки в Ниппель",
+  "Version": 34,
+  "TagsCollection": []
+}

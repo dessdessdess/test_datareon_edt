@@ -1,0 +1,23 @@
+
+DateTime currentTime = DateTime.Now;
+
+var filters = new DataStorageFilter
+{    
+    InsertDateStart = currentTime.AddMinutes(-10),
+    InsertDateEnd = currentTime,
+    TypeName = "РеализацияТоваровУслуг",
+        
+};
+
+var list = ArchiveFacade.Select(filters);
+
+foreach (var el in list)
+{
+
+    if (el.Details.Contains("Конфликт блокировок при выполнении транзакции")) {
+        
+        ArchiveFacade.Restore(el.Data.Id, el.TargetId);
+        
+    }
+
+}

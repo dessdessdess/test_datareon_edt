@@ -1,0 +1,97 @@
+{
+  "$type": "DT.MdmMetadata.BusinessProcesses.BusinessGlobals, DT_Core",
+  "Variables": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": false,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "nip_errors_chat_id",
+        "Id": "dad63ed6-6902-4bf7-84a0-6ede9f873289",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": true
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": false,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "parse_mode",
+        "Id": "7ec88539-248f-4443-8c38-a53554da497a",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": true
+    }
+  ],
+  "Values": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.VariableData, DT_Core",
+      "Id": "dad63ed6-6902-4bf7-84a0-6ede9f873289",
+      "Name": "nip_errors_chat_id",
+      "Variable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "-1002594563757",
+        "Type": "Text",
+        "IsExact": true
+      }
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.VariableData, DT_Core",
+      "Id": "7ec88539-248f-4443-8c38-a53554da497a",
+      "Name": "parse_mode",
+      "Variable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "MarkdownV2",
+        "Type": "Text",
+        "IsExact": true
+      }
+    }
+  ],
+  "FolderId": "b4c7285e-4d00-462e-9f97-86215eebe968",
+  "EntityId": "fc4176ae-db08-418f-82db-c0c325fd3cba",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipConst",
+  "Description": "nipConst",
+  "Comment": "",
+  "Version": 1,
+  "TagsCollection": []
+}

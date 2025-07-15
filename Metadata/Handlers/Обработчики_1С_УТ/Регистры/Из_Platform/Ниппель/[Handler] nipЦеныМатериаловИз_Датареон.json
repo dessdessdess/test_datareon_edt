@@ -1,0 +1,77 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerWebClient, DT_Core",
+  "MethodType": "Post",
+  "AuthRequired": true,
+  "RouteTemplate": "service/nipple/api/v4/material_prices/import",
+  "Timeout": 10000,
+  "IsTemporary": true,
+  "ResponseAsBytes": false,
+  "Integration": "FromPlatform",
+  "Type": "WebClient",
+  "Code": "[Handler] nipЦеныМатериаловИз_Датареон [Code].ext",
+  "WaitResponse": true,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 128,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "XAuthorization",
+      "Id": "383630f0-d4e0-4652-90ea-9ab1e7f7f5c7",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "IsHeader": "true",
+        "HeaderName": "X-Authorization"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.VariableData, DT_Core",
+      "Id": "383630f0-d4e0-4652-90ea-9ab1e7f7f5c7",
+      "Name": "XAuthorization",
+      "Variable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "token t_nipple_iofflmlsdfruiinkl125efr9oigjer3211",
+        "Type": "Text",
+        "IsExact": true
+      }
+    }
+  ],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "ae78d0ae-e76e-419f-97f8-2ebfbf2c9228",
+    "Name": "nipЦеныМатериалов",
+    "Id": "5d1fa985-c991-4e91-85c6-d1c301f85aa9",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "6ebadbc6-06ea-482a-b76f-4d9e5a241687",
+  "EntityId": "9876ed09-76c0-4e3d-b115-96f7c1f21ae9",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipЦеныМатериаловИз_Датареон",
+  "Description": "(Ниппель) Цены материалов из Datareon",
+  "Comment": "Для выгрузки цен материалов в Ниппель",
+  "Version": 23,
+  "TagsCollection": []
+}

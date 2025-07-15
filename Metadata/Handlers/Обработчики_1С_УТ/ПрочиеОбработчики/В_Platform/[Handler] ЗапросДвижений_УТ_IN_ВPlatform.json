@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ЗапросДвижений_УТ_IN_ВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ЗапросДвижений",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "cc9c8d4b-6ead-49da-a3d8-5229f74c8cf4",
+    "Name": "ЗапросДвиженийВМС",
+    "Id": "9a16535f-5130-41bc-a8ee-4adbe96e52b8",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "3474abdd-0af0-4993-a16f-122ceb841fcf",
+  "EntityId": "ba1c88ba-7ca2-4a31-87b1-e8f35883109a",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ЗапросДвижений_УТ_IN_ВPlatform",
+  "Description": "Запрос движений УТ_IN (В Platform)",
+  "Comment": null,
+  "Version": 5,
+  "TagsCollection": []
+}

@@ -1,0 +1,149 @@
+{
+  "$type": "DT.MdmMetadata.BusinessProcesses.BusinessProcess, DT_Core",
+  "ProcessVariable": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+    "Field": {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+      "SystemMetadataId": "3b21385c-c8e4-40f6-a23d-6efa89401cc1",
+      "Name": "НоменклатурныеГруппы",
+      "Id": "e8002551-c23a-44db-ba12-584f1f1c73eb",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    "IsSystem": false,
+    "IsReadonly": false,
+    "Description": "",
+    "InVariable": true,
+    "OutVariable": true
+  },
+  "AutoStart": true,
+  "IsSystem": false,
+  "Steps": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.SendToReceiversStepInfo, DT_Core",
+      "Message": null,
+      "Receivers": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+          "TextDefinition": "92d5d83f-f5d4-4a9e-9579-98d1a214d7bc",
+          "Type": "MetadataSystem",
+          "IsExact": false
+        }
+      ],
+      "ExcludeInitialSource": true,
+      "HasSystemVariables": true,
+      "Id": "65b846ad-a5cf-4af8-9f4f-345c6d9851d1",
+      "Next": "7150b5e5-7fd6-47db-bdad-d7f876a32550",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.LogStepInfo, DT_Core",
+      "EventName": null,
+      "Message": "Номенклатурная группа {InitMessage.GetBodyAsString()}",
+      "Id": "7150b5e5-7fd6-47db-bdad-d7f876a32550",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    }
+  ],
+  "FirstStep": "65b846ad-a5cf-4af8-9f4f-345c6d9851d1",
+  "Positions": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": [
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-1111-1111-1111-111111111111",
+        "X": 250,
+        "Y": 20
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-2222-3333-4444-555555555555",
+        "X": 200,
+        "Y": 400
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "65b846ad-a5cf-4af8-9f4f-345c6d9851d1",
+        "X": 250,
+        "Y": 100
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "7150b5e5-7fd6-47db-bdad-d7f876a32550",
+        "X": 250,
+        "Y": 202
+      }
+    ]
+  },
+  "FolderId": "3f638c8e-db5e-499c-8203-e2f1ec68503e",
+  "LoggingType": "Default",
+  "DumpOnStart": false,
+  "StepsOnError": [],
+  "FirstStepOnError": "00000000-0000-0000-0000-000000000000",
+  "PositionsOnError": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": []
+  },
+  "IsRouter": false,
+  "RouteDataTypes": [],
+  "RouteSystemDataTypes": [],
+  "Subprocess": false,
+  "IsProcessIssueFlow": true,
+  "Isolated": false,
+  "ProcessVariableNotUsed": false,
+  "Variables": [],
+  "Values": [],
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "НоменклатурныеГруппы": 2
+  },
+  "EntityId": "50ae196a-97df-4b8b-b04a-2ee4d2773f4b",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаНоменклатурнойГруппы",
+  "Description": "Выгрузка Номенклатурной группы",
+  "Comment": null,
+  "Version": 8,
+  "TagsCollection": []
+}

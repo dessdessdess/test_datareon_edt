@@ -1,0 +1,113 @@
+{
+  "$type": "DT.MdmMetadata.Types.DataType, DT_Core",
+  "FieldsTemplates": [],
+  "Categories": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.CategoriesGroupField, DT_Core",
+    "Codes": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "Items": [],
+    "Name": "Категории",
+    "Id": "6ec57c02-4d45-4f55-ad76-d9fbd33805be",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "PortalSettings": {
+    "$type": "DT.MdmMetadata.Types.PortalSettings, DT_Core",
+    "FormElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GridHistoryChangesId": "00000000-0000-0000-0000-000000000000",
+    "DataSourceHistoryChangeObjectConfigId": "00000000-0000-0000-0000-000000000000",
+    "FormElementViewerReadOnlyId": "00000000-0000-0000-0000-000000000000",
+    "GridElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GroupHistoryChangeDataOn": false,
+    "DisplayName": "",
+    "Description": null,
+    "FullDescription": null,
+    "VisibleCategoryAttributesAsFlagOn": true,
+    "TypesCategoryColumnView": {},
+    "LinkFieldAsNotSelector": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "DisplayFieldNames": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "SeparateCategoriesTypeViewOnForm": {},
+    "LinkFieldTypeView": {}
+  },
+  "FolderId": "b2ea0915-138c-421a-9d47-655569836ffe",
+  "ClassId": 1103,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 36,
+        "MaxLength": false,
+        "AutoTrim": false
+      },
+      "DateTimeOptions": null,
+      "Name": "ИДСообщенияВХранилище",
+      "Id": "57e1c97c-81c4-44a5-840d-6242758902ba",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 50,
+        "MaxLength": true,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "Ошибки",
+      "Id": "c3c976bb-a4c7-4c5d-8bfa-fb916388b539",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "ИДСообщенияВХранилище": 1,
+    "Ошибки": 2
+  },
+  "EntityId": "3126b1c4-66c5-4ae6-91cb-b249700ad454",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipДозапросДанныхИз1С",
+  "Description": "(Ниппель) Дозапрос данных из 1С",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": []
+}

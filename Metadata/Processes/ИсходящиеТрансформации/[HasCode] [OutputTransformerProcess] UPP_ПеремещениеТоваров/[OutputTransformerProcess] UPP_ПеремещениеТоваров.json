@@ -1,0 +1,341 @@
+{
+  "$type": "DT.MdmMetadata.Transformation.OutputTransformerProcess, DT_Core",
+  "FirstStep": "0d677377-9f31-4698-b4b0-4766816df797",
+  "Steps": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.CustomAlgorithmStepInfo, DT_Core",
+      "Code": "[AlgorithmCode] 614dfb23-f3db-4480-8720-4de757126f22 [Code].ext",
+      "SourceCodeType": "Code",
+      "ModuleId": null,
+      "AlgorithmId": null,
+      "NeedLocalScope": false,
+      "HasAlgorithm": false,
+      "AlgorithmIdAsGuid": "00000000-0000-0000-0000-000000000000",
+      "Id": "614dfb23-f3db-4480-8720-4de757126f22",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalStepInfo, DT_Core",
+      "DefaultId": "00000000-0000-0000-0000-000000000000",
+      "Id": "0d677377-9f31-4698-b4b0-4766816df797",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalLinkInfo, DT_Core",
+          "Expression": {
+            "$type": "DT.MdmMetadata.Conditions.ConditionBoolExpression, DT_Core",
+            "Operator": "Or",
+            "Parameters": [
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitMessage.GetStringProperty(\"Склад\")",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"3d56f50d-460e-11e7-80c1-000af75854f0\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "Equals",
+                "Comment": null
+              },
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitMessage.GetStringProperty(\"Склад\")",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"4f93a68c-460e-11e7-80c1-000af75854f0\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "Equals",
+                "Comment": null
+              },
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitMessage.GetStringProperty(\"Склад\")",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"5a641e74-460e-11e7-80c1-000af75854f0\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "Equals",
+                "Comment": null
+              },
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitMessage.GetStringProperty(\"Склад\")",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"5adfb56e-ac3c-11ed-bbfd-005056a07feb\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "Equals",
+                "Comment": null
+              }
+            ],
+            "Comment": null
+          },
+          "Next": "614dfb23-f3db-4480-8720-4de757126f22",
+          "Priority": 0
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalLinkInfo, DT_Core",
+          "Expression": {
+            "$type": "DT.MdmMetadata.Conditions.ConditionBoolExpression, DT_Core",
+            "Operator": "Or",
+            "Parameters": [
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitMessage.GetStringProperty(\"Склад\")",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"3d56f50d-460e-11e7-80c1-000af75854f0\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "NotEquals",
+                "Comment": null
+              },
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitMessage.GetStringProperty(\"Склад\")",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"4f93a68c-460e-11e7-80c1-000af75854f0\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "NotEquals",
+                "Comment": null
+              },
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitMessage.GetStringProperty(\"Склад\")",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"5a641e74-460e-11e7-80c1-000af75854f0\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "NotEquals",
+                "Comment": null
+              },
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitMessage.GetStringProperty(\"Склад\")",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"5adfb56e-ac3c-11ed-bbfd-005056a07feb\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "NotEquals",
+                "Comment": null
+              }
+            ],
+            "Comment": null
+          },
+          "Next": "1befc653-0c08-48d7-aba2-c4a9948d1e17",
+          "Priority": 1
+        }
+      ],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.CustomAlgorithmStepInfo, DT_Core",
+      "Code": "[AlgorithmCode] 1befc653-0c08-48d7-aba2-c4a9948d1e17 [Code].ext",
+      "SourceCodeType": "Code",
+      "ModuleId": null,
+      "AlgorithmId": null,
+      "NeedLocalScope": false,
+      "HasAlgorithm": false,
+      "AlgorithmIdAsGuid": "00000000-0000-0000-0000-000000000000",
+      "Id": "1befc653-0c08-48d7-aba2-c4a9948d1e17",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    }
+  ],
+  "Positions": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": [
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-1111-1111-1111-111111111111",
+        "X": 199,
+        "Y": 16
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-2222-3333-4444-555555555555",
+        "X": 200,
+        "Y": 400
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "614dfb23-f3db-4480-8720-4de757126f22",
+        "X": 254,
+        "Y": 198
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "0d677377-9f31-4698-b4b0-4766816df797",
+        "X": 199,
+        "Y": 71
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "4c170d05-3e35-4305-9be3-b441e8a3a5cd",
+        "X": 434,
+        "Y": 198
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "1befc653-0c08-48d7-aba2-c4a9948d1e17",
+        "X": 401,
+        "Y": 297
+      }
+    ]
+  },
+  "LoggingType": "Default",
+  "DumpOnStart": false,
+  "IsRouter": false,
+  "IsProcessIssueFlow": false,
+  "Isolated": false,
+  "InVariable": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+    "Field": {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+      "DataTypeId": "82f9ee49-97e2-49af-93cd-4c3e88b2ecc1",
+      "Name": "Сообщение",
+      "Id": "3242df38-e285-4b46-ab96-8585458c1eda",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    "IsSystem": false,
+    "IsReadonly": false,
+    "Description": "",
+    "InVariable": true,
+    "OutVariable": true
+  },
+  "OutVariable": null,
+  "InVariableToOut": false,
+  "ReturnToAnotherTransformations": false,
+  "Systems": [
+    "92d5d83f-f5d4-4a9e-9579-98d1a214d7bc"
+  ],
+  "AutoStart": true,
+  "ProcessVariableNotUsed": false,
+  "Variables": [],
+  "Values": [],
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "Сообщение": 2
+  },
+  "EntityId": "3b5a9fe4-d0a8-48be-9e4a-2ba131d3382e",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "UPP_ПеремещениеТоваров",
+  "Description": "UPP_ПеремещениеТоваров",
+  "Comment": null,
+  "Version": 49,
+  "TagsCollection": []
+}

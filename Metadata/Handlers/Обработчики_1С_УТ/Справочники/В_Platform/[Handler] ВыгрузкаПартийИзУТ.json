@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 3,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаПартийИзУТ [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.СерииНоменклатуры",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "f46a7a7e-6a93-4dc2-84e1-3da9a295386f",
+    "Name": "СерииНоменклатуры",
+    "Id": "b0a4121c-c0bd-4192-9927-0f29f6cb3688",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "f9665837-8f21-41e6-bdd6-197581ef534e",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаПартийИзУТ",
+  "Description": "Выгрузка партий из УТ",
+  "Comment": null,
+  "Version": 22,
+  "TagsCollection": []
+}

@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 2,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] СправочникНоменклатура_ВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.Номенклатура",
+  "SystemDataTypeId": "078a2746-d43a-48ac-93a7-411f0a5e60dc",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "10b69a92-0adf-42ff-a914-f002a0c4a115",
+    "Name": "Номенклатура",
+    "Id": "aceb0929-c72b-4576-b21f-45150871c343",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "04aecda9-1537-4226-b925-7f55210224e2",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СправочникНоменклатура_ВPlatform",
+  "Description": "Выгрузка спр. Номенклатура из УТ в Datareon",
+  "Comment": "",
+  "Version": 58,
+  "TagsCollection": []
+}

@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipРеглПроизводственныйКалендарьВ_Датареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "РегистрСведений.РегламентированныйПроизводственныйКалендарь",
+  "SystemDataTypeId": "1f00f5bd-bd96-488d-9393-45a443118bd4",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "75e5bdd9-0cd3-41ab-8444-3ac4e569807a",
+    "Name": "ПроизводственныйКалендарь",
+    "Id": "f405196a-db7e-4a07-a7db-c75d90e23150",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "617a2fae-dae1-429b-81b9-aa2ef1a0260b",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipРеглПроизводственныйКалендарьВ_Датареон",
+  "Description": "(Ниппель) Регл. произв. календарь в Datareon",
+  "Comment": "Для выгрузки в Ниппель",
+  "Version": 40,
+  "TagsCollection": []
+}

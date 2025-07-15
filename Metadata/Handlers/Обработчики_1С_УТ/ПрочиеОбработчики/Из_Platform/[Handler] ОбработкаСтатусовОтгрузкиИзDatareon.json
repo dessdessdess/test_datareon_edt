@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ОбработкаСтатусовОтгрузкиИзDatareon [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "d5bc86c5-90b6-4a44-b0a5-4b9173991d33",
+    "Name": "СтатусыОтгрузкиТовара",
+    "Id": "15324dd7-1562-4f96-9e55-fa24acf5ace5",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "6bbf0d24-137d-4f67-9ed4-74b038719372",
+  "EntityId": "9a8c27d2-9bc8-40d0-b0e5-84518175b176",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ОбработкаСтатусовОтгрузкиИзDatareon",
+  "Description": "Обработка статусов отгрузки из Datareon",
+  "Comment": "Сгенерировано на основании типа данных [d5bc86c5-90b6-4a44-b0a5-4b9173991d33, СтатусыОтгрузкиТовара] 19.09.2024 13:43:35",
+  "Version": 23,
+  "TagsCollection": []
+}

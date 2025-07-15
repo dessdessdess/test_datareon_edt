@@ -1,0 +1,51 @@
+{
+  "$type": "DT.ClusterConfiguration.ClusterNode, DT_Core",
+  "IsCoordinator": false,
+  "HasControlCenter": true,
+  "Address": "127.0.0.1",
+  "Port": 7290,
+  "IpAddress": null,
+  "ControlCenterPort": 7200,
+  "ServiceKey": "00000000-0000-0000-0000-000000000000",
+  "ReplicateTo": [],
+  "AllocationsGlobal": {
+    "$type": "DT.ClusterConfiguration.Allocation.AllocationConfig, DT_Core",
+    "Systems": [],
+    "Modules": [],
+    "DisableAutoAssignment": false
+  },
+  "AllocationsLocal": {
+    "$type": "DT.ClusterConfiguration.Allocation.AllocationConfig, DT_Core",
+    "Systems": [],
+    "Modules": [],
+    "DisableAutoAssignment": false
+  },
+  "AllocationsEffective": {
+    "$type": "DT.ClusterConfiguration.Allocation.AllocationConfig, DT_Core",
+    "Systems": [],
+    "Modules": [],
+    "DisableAutoAssignment": false
+  },
+  "IsBroken": false,
+  "BrokenReason": "None",
+  "IsActive": true,
+  "FolderId": "ba7e0389-1f1f-40f7-9741-790f63cee47a",
+  "NodeParams": null,
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "NodeResolveList": [],
+  "DataBankParams": null,
+  "DiskUsageParams": null,
+  "LogStorageParams": null,
+  "ArchiveStorageParams": null,
+  "TrackingStorageParams": null,
+  "MaxThreads": 0,
+  "MinThreads": 0,
+  "EntityId": "b23338fb-2f8b-4984-ab5a-f785770a5c55",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "SV_DP01",
+  "Description": "SV_DP01",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

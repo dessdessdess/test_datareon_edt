@@ -1,0 +1,12 @@
+{
+  "$type": "DT.VirtualFolder, DT_Core",
+  "Type": "Roles",
+  "FolderId": "5880843a-ea26-4e72-b2c8-da5b80c58036",
+  "EntityId": "fb6bdb99-f1ef-4a45-b99e-3824d280bf73",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Роли",
+  "Description": null,
+  "Comment": null,
+  "Version": 2,
+  "TagsCollection": null
+}

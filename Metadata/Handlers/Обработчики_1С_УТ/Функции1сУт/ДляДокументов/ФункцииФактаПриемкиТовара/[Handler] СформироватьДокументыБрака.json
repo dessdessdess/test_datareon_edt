@@ -1,0 +1,91 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerFunction1C, DT_Core",
+  "Synchronously": false,
+  "Integration": "ToPlatform",
+  "Type": "Function1C",
+  "Code": "[Handler] СформироватьДокументыБрака [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ДокПриходныйОрдер",
+      "Id": "9e88d3d4-f457-42ac-a963-f9e4f22fdcf0",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ТЗБрак",
+      "Id": "4865beac-80b6-4b35-b477-13f49df3b642",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ДокументОснование",
+      "Id": "bcebc0a6-9cc3-4970-b865-d20cb5eb8327",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "Склад",
+      "Id": "23340f27-450c-49dc-a938-d9b523b9548f",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": null,
+  "FolderId": "f4e1a3db-7ca8-473f-8878-0a2cd37e4ecb",
+  "EntityId": "ba84e618-172a-4353-b297-aadf17008884",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СформироватьДокументыБрака",
+  "Description": "СформироватьДокументыБрака",
+  "Comment": null,
+  "Version": 3,
+  "TagsCollection": []
+}

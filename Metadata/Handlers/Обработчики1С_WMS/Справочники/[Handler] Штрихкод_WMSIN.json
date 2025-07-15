@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] Штрихкод_WMSIN [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": "0a80c44c-dda2-48ef-afd3-4d6fb5b1ec7b",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "0a80c44c-dda2-48ef-afd3-4d6fb5b1ec7b",
+    "Name": "Штрихкоды",
+    "Id": "a4cbb3d3-35df-46a1-8895-d0c185c190b6",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "334c710d-1e55-4855-b15d-c82a03a5b3b6",
+  "EntityId": "bb7bbe31-6f3b-4bb4-a75f-649714ae87d0",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Штрихкод_WMSIN",
+  "Description": "Штрихкод_WMSIN",
+  "Comment": null,
+  "Version": 25,
+  "TagsCollection": []
+}

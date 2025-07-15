@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаКорректировкиРеализацииИзУТВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Документ.КорректировкаРеализации",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "7d983b8e-d77c-40cd-b5d1-f9c758ddb2d5",
+    "Name": "КорректировкаРеализации",
+    "Id": "cd47d310-718e-40ab-bdae-92710c554063",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "858cbda3-7697-45a7-ba23-5a3f103e57d9",
+  "EntityId": "387cc631-238a-44c1-9c80-31bd26a13423",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаКорректировкиРеализацииИзУТВPlatform",
+  "Description": "Выгрузка корректировки реализации из УТ (В Platform)",
+  "Comment": null,
+  "Version": 8,
+  "TagsCollection": []
+}

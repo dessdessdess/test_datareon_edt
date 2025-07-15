@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipЗаказПокупателя_В_Датареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "nipЗаказПокупателя",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "c6818240-51f5-4d3f-970f-5bc3c0bead33",
+    "Name": "nipЗаказПокупателя",
+    "Id": "0ddccede-0a37-4f66-9d2b-ccdce56e1096",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "d7da5a1c-bb56-48e9-9a37-b7f1dd045700",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipЗаказПокупателя_В_Датареон",
+  "Description": "(Ниппель) Заказ покупателя в Datareon",
+  "Comment": "",
+  "Version": 33,
+  "TagsCollection": []
+}

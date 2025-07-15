@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "b1ed596b-648a-42bc-aec1-2241d3cd5419",
+  "ChildrenType": "Processes",
+  "EntityId": "f6823123-a5e0-4df9-a37d-3fe128be914a",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ИсходящиеТрансформации",
+  "Description": "Исходящие трансформации",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

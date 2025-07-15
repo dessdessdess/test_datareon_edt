@@ -1,0 +1,85 @@
+{
+  "$type": "DT.MdmMetadata.Algorithms.Algorithm, DT_Core",
+  "Code": "[Algorithm] EscapeMarkdownV2 [Code].ext",
+  "ProcessVariable": null,
+  "ModuleId": null,
+  "AutoStart": false,
+  "IsPure": true,
+  "FolderId": "6abb778c-8786-4d55-afde-c20a8482966c",
+  "ProcessVariableNotUsed": false,
+  "Variables": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": true,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "text",
+        "Id": "046edf39-e54b-44f0-9270-5665c3cb6c6b",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": false
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": true,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "escapedText",
+        "Id": "edc552c9-030a-4141-87c0-d4614dae0c89",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": false,
+      "OutVariable": true
+    }
+  ],
+  "Values": [],
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "text": 2,
+    "escapedText": 3
+  },
+  "EntityId": "62ac5608-f455-4462-aa29-bfb15e38b7e1",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "EscapeMarkdownV2",
+  "Description": "(Ниппель) EscapeMarkdownV2",
+  "Comment": null,
+  "Version": 2,
+  "TagsCollection": []
+}

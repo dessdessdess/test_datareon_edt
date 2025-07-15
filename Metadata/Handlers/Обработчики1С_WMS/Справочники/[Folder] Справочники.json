@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "859e30ba-f55d-4a13-a488-2bb8a93e7da6",
+  "ChildrenType": "Handlers",
+  "EntityId": "334c710d-1e55-4855-b15d-c82a03a5b3b6",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Справочники",
+  "Description": "Справочники",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

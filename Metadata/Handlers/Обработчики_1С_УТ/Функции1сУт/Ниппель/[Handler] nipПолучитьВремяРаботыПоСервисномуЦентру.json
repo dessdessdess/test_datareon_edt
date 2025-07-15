@@ -1,0 +1,40 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerFunction1C, DT_Core",
+  "Synchronously": false,
+  "Integration": "ToPlatform",
+  "Type": "Function1C",
+  "Code": "[Handler] nipПолучитьВремяРаботыПоСервисномуЦентру [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ВремяРаботыСервисногоЦентра",
+      "Id": "4409602e-50a9-4f45-acb5-912afdd2eaf5",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": null,
+  "FolderId": "4b839686-a760-4464-bd8a-bd789622f0db",
+  "EntityId": "efe3f578-c5d1-4c3e-bae4-720e5c90739d",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipПолучитьВремяРаботыПоСервисномуЦентру",
+  "Description": "(Ниппель) Получить время работы по сервисному центру",
+  "Comment": null,
+  "Version": 18,
+  "TagsCollection": []
+}

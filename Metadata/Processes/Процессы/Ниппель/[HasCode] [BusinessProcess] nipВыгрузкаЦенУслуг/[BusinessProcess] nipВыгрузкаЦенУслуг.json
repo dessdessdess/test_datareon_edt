@@ -1,0 +1,1185 @@
+{
+  "$type": "DT.MdmMetadata.BusinessProcesses.BusinessProcess, DT_Core",
+  "ProcessVariable": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+    "Field": {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+      "DataTypeId": "747126b3-929c-4686-b025-2a472730aeae",
+      "Name": "nipЦеныУслуг",
+      "Id": "f660d9c4-7c3b-4b09-8885-e79e59493361",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    "IsSystem": false,
+    "IsReadonly": false,
+    "Description": "",
+    "InVariable": true,
+    "OutVariable": true
+  },
+  "AutoStart": true,
+  "IsSystem": false,
+  "Steps": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.SendToSubscriberStepInfo, DT_Core",
+      "Message": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "21ec5538-d92f-47cc-96b6-9db46fa432ba",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "Receivers": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "7e51cf07-a995-4b51-8fe7-bc722ee02a2e",
+        "Type": "System",
+        "IsExact": false
+      },
+      "Folders": null,
+      "QueryText": "",
+      "ReceiversType": "ByReceiverId",
+      "WaitForReplyType": "WaitResponse",
+      "Timeout": 10000,
+      "OnResponse": "6eea970b-8ff1-4161-9b1a-b68b5d28434b",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "IsBoundToAdapter": false,
+      "OnlyRegistration": false,
+      "HandlerId": "8ed9e1c2-b357-456f-a9e4-17245e9aad30",
+      "IsResponse": false,
+      "HasSystemVariables": true,
+      "Id": "6b24147a-24ab-4e0d-a84f-b5926a99a4ab",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "a513b7b3-7d21-45b3-90fb-2ebe5116d2a6",
+      "Description": "Отправка в тестовый контур",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "440ed7d0-800b-4e5a-a873-9b7d8a94c330",
+          "SourceId": "8958be6b-1a4a-4aa1-8f90-8ce81e980280",
+          "TargetId": "18854755-22ad-445b-a403-d57c2f3531ed",
+          "Expression": null,
+          "Type": "LinkToBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "18854755-22ad-445b-a403-d57c2f3531ed",
+          "SourceId": null,
+          "TargetId": null,
+          "Expression": "",
+          "Type": "BoxItem",
+          "Aliases": [
+            {
+              "$type": "DT.MdmMetadata.Common.AliasField, DT_TypeBuilder.Entities",
+              "FieldName": "ОтветноеСообщение",
+              "Alias": "ОтветноеСообщение"
+            }
+          ],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "891c15cb-c2ec-4536-a74b-52a39f13ea26",
+          "SourceId": "18854755-22ad-445b-a403-d57c2f3531ed",
+          "TargetId": "6ce4ba2c-1f46-46bd-a7bf-83fcd3949a37",
+          "Expression": null,
+          "Type": "LinkFromBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "51971f90-730f-42bf-ae07-0c5ffee278d4",
+          "SourceId": "8958be6b-1a4a-4aa1-8f90-8ce81e980280",
+          "TargetId": "1c9349c1-2578-4da5-9f35-04104336bed3",
+          "Expression": null,
+          "Type": "LinkToBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "1c9349c1-2578-4da5-9f35-04104336bed3",
+          "SourceId": null,
+          "TargetId": null,
+          "Expression": null,
+          "Type": "BoxItem",
+          "Aliases": [
+            {
+              "$type": "DT.MdmMetadata.Common.AliasField, DT_TypeBuilder.Entities",
+              "FieldName": "ОтветноеСообщение",
+              "Alias": "ОтветноеСообщение"
+            }
+          ],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "aebfbd41-3bc4-4180-a9a6-5cdb38ddbde5",
+          "SourceId": "1c9349c1-2578-4da5-9f35-04104336bed3",
+          "TargetId": "1a15e232-4179-4c9d-8b66-a927e0bab762",
+          "Expression": null,
+          "Type": "LinkFromBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        }
+      ],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalStepInfo, DT_Core",
+      "DefaultId": "341ad045-197d-4043-b798-8a537c0d1c94",
+      "Id": "6eea970b-8ff1-4161-9b1a-b68b5d28434b",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "Есть errors?",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalLinkInfo, DT_Core",
+          "Expression": {
+            "$type": "DT.MdmMetadata.Conditions.ConditionBoolExpression, DT_Core",
+            "Operator": "And",
+            "Parameters": [
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "ОтветОтНиппель.data.errors.IsEmpty()",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "true",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "NotEquals",
+                "Comment": null
+              }
+            ],
+            "Comment": null
+          },
+          "Next": "377fc044-449e-4135-9aaf-caa257f61199",
+          "Priority": 0
+        }
+      ],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalStepInfo, DT_Core",
+      "DefaultId": "006e22f6-25db-4640-b82f-c4fcc2399775",
+      "Id": "ce52b489-7508-425b-a7dc-632add3dfa3d",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "Это тестовый контур?",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalLinkInfo, DT_Core",
+          "Expression": {
+            "$type": "DT.MdmMetadata.Conditions.ConditionBoolExpression, DT_Core",
+            "Operator": "Or",
+            "Parameters": [
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitSource.ToString()",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"ТестоваяБаза_Brinex_ITSDAll\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "Equals",
+                "Comment": null
+              },
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitSource.ToString()",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"БазаРазработки_АбзановРА\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "Equals",
+                "Comment": null
+              }
+            ],
+            "Comment": null
+          },
+          "Next": "6b24147a-24ab-4e0d-a84f-b5926a99a4ab",
+          "Priority": 0
+        }
+      ],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.SendToSubscriberStepInfo, DT_Core",
+      "Message": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "21ec5538-d92f-47cc-96b6-9db46fa432ba",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "Receivers": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "7e51cf07-a995-4b51-8fe7-bc722ee02a2e",
+        "Type": "System",
+        "IsExact": false
+      },
+      "Folders": null,
+      "QueryText": "",
+      "ReceiversType": "ByReceiverId",
+      "WaitForReplyType": "WaitResponse",
+      "Timeout": 10000,
+      "OnResponse": "6eea970b-8ff1-4161-9b1a-b68b5d28434b",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "IsBoundToAdapter": false,
+      "OnlyRegistration": false,
+      "HandlerId": "8ed9e1c2-b357-456f-a9e4-17245e9aad30",
+      "IsResponse": false,
+      "HasSystemVariables": true,
+      "Id": "dcb557c4-d77c-4aa9-bdc1-008211f72bf4",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "a513b7b3-7d21-45b3-90fb-2ebe5116d2a6",
+      "Description": "Отправка в рабочий контур",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "440ed7d0-800b-4e5a-a873-9b7d8a94c330",
+          "SourceId": "8958be6b-1a4a-4aa1-8f90-8ce81e980280",
+          "TargetId": "18854755-22ad-445b-a403-d57c2f3531ed",
+          "Expression": null,
+          "Type": "LinkToBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "18854755-22ad-445b-a403-d57c2f3531ed",
+          "SourceId": null,
+          "TargetId": null,
+          "Expression": "",
+          "Type": "BoxItem",
+          "Aliases": [
+            {
+              "$type": "DT.MdmMetadata.Common.AliasField, DT_TypeBuilder.Entities",
+              "FieldName": "ОтветноеСообщение",
+              "Alias": "ОтветноеСообщение"
+            }
+          ],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "891c15cb-c2ec-4536-a74b-52a39f13ea26",
+          "SourceId": "18854755-22ad-445b-a403-d57c2f3531ed",
+          "TargetId": "6ce4ba2c-1f46-46bd-a7bf-83fcd3949a37",
+          "Expression": null,
+          "Type": "LinkFromBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "b03dfd2c-ff02-404a-8dc9-ac26f2eafde8",
+          "SourceId": "8958be6b-1a4a-4aa1-8f90-8ce81e980280",
+          "TargetId": "813358ee-a4f7-47cc-8775-85b8796a6366",
+          "Expression": null,
+          "Type": "LinkToBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "813358ee-a4f7-47cc-8775-85b8796a6366",
+          "SourceId": null,
+          "TargetId": null,
+          "Expression": null,
+          "Type": "BoxItem",
+          "Aliases": [
+            {
+              "$type": "DT.MdmMetadata.Common.AliasField, DT_TypeBuilder.Entities",
+              "FieldName": "ОтветноеСообщение",
+              "Alias": "ОтветноеСообщение"
+            }
+          ],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "a34c4554-c353-4b39-bc32-fdc03a95e906",
+          "SourceId": "813358ee-a4f7-47cc-8775-85b8796a6366",
+          "TargetId": "1a15e232-4179-4c9d-8b66-a927e0bab762",
+          "Expression": null,
+          "Type": "LinkFromBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        }
+      ],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.MessageStorageWriteStepInfo, DT_Core",
+      "Messages": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "21ec5538-d92f-47cc-96b6-9db46fa432ba",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "OnResponse": "ce52b489-7508-425b-a7dc-632add3dfa3d",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "Timeout": 10000,
+      "CheckVersion": false,
+      "RejectResentMessages": true,
+      "HasSystemVariables": true,
+      "Id": "cd3e877f-0d20-4ebd-9852-c5a99e12fa38",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.CustomAlgorithmStepInfo, DT_Core",
+      "Code": null,
+      "SourceCodeType": "Algorithm",
+      "ModuleId": null,
+      "AlgorithmId": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "b8bc5fec-9707-44f9-aba2-4015582237b7",
+        "Type": "Text",
+        "IsExact": false
+      },
+      "NeedLocalScope": false,
+      "HasAlgorithm": true,
+      "AlgorithmIdAsGuid": "b8bc5fec-9707-44f9-aba2-4015582237b7",
+      "Id": "377fc044-449e-4135-9aaf-caa257f61199",
+      "Next": "58410e15-9d9e-4065-a072-4a01e673aa1f",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "РазборОтветаОтНиппеля",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "7539f73a-63e0-4eaa-952f-363539190d61",
+          "SourceId": "683c6f03-ec2a-4555-a3f8-b3bc46a5864a",
+          "TargetId": "80408ac6-0a40-4e37-bf93-87c6b57e02a7",
+          "Expression": null,
+          "Type": "LinkToBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "80408ac6-0a40-4e37-bf93-87c6b57e02a7",
+          "SourceId": null,
+          "TargetId": null,
+          "Expression": null,
+          "Type": "BoxItem",
+          "Aliases": [
+            {
+              "$type": "DT.MdmMetadata.Common.AliasField, DT_TypeBuilder.Entities",
+              "FieldName": "errors",
+              "Alias": "errors"
+            }
+          ],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "cbdaa8d0-893f-4465-80c3-af955ba9193d",
+          "SourceId": "80408ac6-0a40-4e37-bf93-87c6b57e02a7",
+          "TargetId": "bd6c2f68-cae3-4c24-aa5d-62f60f682da0",
+          "Expression": null,
+          "Type": "LinkFromBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        }
+      ],
+      "GlobalToLocal": [
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "c16352c6-6a93-4571-a413-e351e388fcf7",
+          "SourceId": "1a15e232-4179-4c9d-8b66-a927e0bab762",
+          "TargetId": "40b7514f-335a-49b5-a66a-cfa0757c32eb",
+          "Expression": null,
+          "Type": "LinkToBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "40b7514f-335a-49b5-a66a-cfa0757c32eb",
+          "SourceId": null,
+          "TargetId": null,
+          "Expression": null,
+          "Type": "BoxItem",
+          "Aliases": [
+            {
+              "$type": "DT.MdmMetadata.Common.AliasField, DT_TypeBuilder.Entities",
+              "FieldName": "response",
+              "Alias": "response"
+            }
+          ],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "5ee9dd52-b696-4dcf-b903-cdb8b403072d",
+          "SourceId": "40b7514f-335a-49b5-a66a-cfa0757c32eb",
+          "TargetId": "5c132e91-95b1-4ca8-b535-4c04c5acf51a",
+          "Expression": null,
+          "Type": "LinkFromBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        }
+      ],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.CustomAlgorithmStepInfo, DT_Core",
+      "Code": "[AlgorithmCode] a513b7b3-7d21-45b3-90fb-2ebe5116d2a6 [Code].ext",
+      "SourceCodeType": "Code",
+      "ModuleId": null,
+      "AlgorithmId": null,
+      "NeedLocalScope": false,
+      "HasAlgorithm": false,
+      "AlgorithmIdAsGuid": "00000000-0000-0000-0000-000000000000",
+      "Id": "a513b7b3-7d21-45b3-90fb-2ebe5116d2a6",
+      "Next": "2eb33c7f-f9cd-4951-9ff7-668be3a523be",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "Формирование сообщения для телеграм",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "73cf0790-1a0f-4ac3-a3b7-53664f55d800",
+          "SourceId": null,
+          "TargetId": null,
+          "Expression": "nipConst.nip_errors_chat_id",
+          "Type": "BoxItem",
+          "Aliases": [
+            {
+              "$type": "DT.MdmMetadata.Common.AliasField, DT_TypeBuilder.Entities",
+              "FieldName": "nipСообщениеВТелеграмм.chat_id",
+              "Alias": "nipСообщениеВТелеграмм.chat_id"
+            }
+          ],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": true
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "84068cc9-e403-41b3-b488-b94c198bcb5a",
+          "SourceId": "73cf0790-1a0f-4ac3-a3b7-53664f55d800",
+          "TargetId": "d43e9b96-520f-4ad5-bbf1-a8d9a160a33e.5d58754b-45af-47e9-878d-400c51675294",
+          "Expression": null,
+          "Type": "LinkFromBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "42eafb1f-fa5f-4a16-b086-8d72d186a1f9",
+          "SourceId": null,
+          "TargetId": null,
+          "Expression": "nipConst.parse_mode",
+          "Type": "BoxItem",
+          "Aliases": [
+            {
+              "$type": "DT.MdmMetadata.Common.AliasField, DT_TypeBuilder.Entities",
+              "FieldName": "nipСообщениеВТелеграмм.parse_mode",
+              "Alias": "nipСообщениеВТелеграмм.parse_mode"
+            }
+          ],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": true
+        },
+        {
+          "$type": "DT.MdmMetadata.Common.LinkData, DT_TypeBuilder.Entities",
+          "Id": "e21ffaa1-b8c9-4ab1-bb07-a337fbef9246",
+          "SourceId": "42eafb1f-fa5f-4a16-b086-8d72d186a1f9",
+          "TargetId": "d43e9b96-520f-4ad5-bbf1-a8d9a160a33e.510fa148-cc2a-4da1-9eb4-c8d096a60964",
+          "Expression": null,
+          "Type": "LinkFromBox",
+          "Aliases": [],
+          "AddOption": "Replace",
+          "FillOption": "AutoMapping",
+          "HasExpression": false
+        }
+      ],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.SendToSubscriberStepInfo, DT_Core",
+      "Message": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "d43e9b96-520f-4ad5-bbf1-a8d9a160a33e",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "Receivers": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "57811589-ecf5-4bbb-a24f-efcfe6f6b11c",
+        "Type": "System",
+        "IsExact": false
+      },
+      "Folders": null,
+      "QueryText": "",
+      "ReceiversType": "ByReceiverId",
+      "WaitForReplyType": "None",
+      "Timeout": 0,
+      "OnResponse": "00000000-0000-0000-0000-000000000000",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "IsBoundToAdapter": false,
+      "OnlyRegistration": false,
+      "HandlerId": "1e360846-a2cb-4be9-844f-847a3d45815b",
+      "IsResponse": false,
+      "HasSystemVariables": true,
+      "Id": "2eb33c7f-f9cd-4951-9ff7-668be3a523be",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "Отправка ошибки в Телеграмм",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalStepInfo, DT_Core",
+      "DefaultId": "39bd9d62-ba39-4f1f-93b0-9c3ab64a5c8d",
+      "Id": "006e22f6-25db-4640-b82f-c4fcc2399775",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "Это рабочий контур?",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Conditional.ConditionalLinkInfo, DT_Core",
+          "Expression": {
+            "$type": "DT.MdmMetadata.Conditions.ConditionBoolExpression, DT_Core",
+            "Operator": "And",
+            "Parameters": [
+              {
+                "$type": "DT.MdmMetadata.Conditions.ConditionTestExpression, DT_Core",
+                "LeftParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "InitSource.ToString()",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "RightParameter": {
+                  "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+                  "TextDefinition": "\"BrinexUT10\"",
+                  "Type": "Text",
+                  "IsExact": false
+                },
+                "Operator": "Equals",
+                "Comment": null
+              }
+            ],
+            "Comment": null
+          },
+          "Next": "dcb557c4-d77c-4aa9-bdc1-008211f72bf4",
+          "Priority": 0
+        }
+      ],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.MessageStorageWriteStepInfo, DT_Core",
+      "Messages": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "bd6c2f68-cae3-4c24-aa5d-62f60f682da0",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "OnResponse": "00000000-0000-0000-0000-000000000000",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "Timeout": 10000,
+      "CheckVersion": false,
+      "RejectResentMessages": true,
+      "HasSystemVariables": true,
+      "Id": "58410e15-9d9e-4065-a072-4a01e673aa1f",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "errors",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.MessageStorageWriteStepInfo, DT_Core",
+      "Messages": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "6ce4ba2c-1f46-46bd-a7bf-83fcd3949a37.d9995b9f-b1f3-49ee-aae5-ca1ab33dbbf1.cd41e5ff-dfe6-46df-bc40-edda9c4097a9",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "OnResponse": "00000000-0000-0000-0000-000000000000",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "Timeout": 10000,
+      "CheckVersion": false,
+      "RejectResentMessages": true,
+      "HasSystemVariables": true,
+      "Id": "341ad045-197d-4043-b798-8a537c0d1c94",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "ok",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    }
+  ],
+  "FirstStep": "cd3e877f-0d20-4ebd-9852-c5a99e12fa38",
+  "Positions": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": [
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-1111-1111-1111-111111111111",
+        "X": 338,
+        "Y": -137
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-2222-3333-4444-555555555555",
+        "X": 200,
+        "Y": 400
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "2ab4352c-a3ff-4b3a-b0e5-611554e06d86",
+        "X": 251,
+        "Y": 109
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "164d3766-b4b5-4860-816a-9640c760ef1d",
+        "X": 59,
+        "Y": 274
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "348e56d1-8437-41c5-8a74-8ac4275704aa",
+        "X": 441,
+        "Y": 283
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "90a95ddb-e4fe-4955-9728-d1acbd06e83c",
+        "X": 251,
+        "Y": 88
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "29f88263-4c57-4fea-b3ed-5185c5aeaf30",
+        "X": 332,
+        "Y": 270
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "f13b07da-1448-41c5-aabe-654f145a041d",
+        "X": 227,
+        "Y": 134
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "92c0bbbd-dca6-48b6-8d73-bc4136d867c3",
+        "X": 400,
+        "Y": 333
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "2b0fa196-8249-48ed-986b-e6c239cbec8f",
+        "X": 113,
+        "Y": 320
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "6b24147a-24ab-4e0d-a84f-b5926a99a4ab",
+        "X": 229,
+        "Y": 126
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "1ced7c43-efe5-4692-aaaa-d4110ade19dd",
+        "X": 250,
+        "Y": 353
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "0c3c03d2-4d99-4646-833c-a253b058ebd3",
+        "X": 131,
+        "Y": 278
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "e7be002d-eac8-4a76-b686-9551c4fd5fc9",
+        "X": 590,
+        "Y": 215
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "6205e53a-6b24-4bfe-9368-acf0dac549fb",
+        "X": 294,
+        "Y": 432
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "5622dd97-fe6d-4957-b2fa-37e8c93c100f",
+        "X": 310,
+        "Y": 447
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "2b726790-122b-4aaa-a7a5-17cb75f52124",
+        "X": 68,
+        "Y": 196
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "f29218c7-a0e5-450b-a828-878415cb76d0",
+        "X": 67,
+        "Y": 290
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "6dabbc54-1b8f-4b1f-87a5-9948c7bacc8b",
+        "X": 366,
+        "Y": 194
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "6eea970b-8ff1-4161-9b1a-b68b5d28434b",
+        "X": 334,
+        "Y": 217
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "f5dadf12-2cc6-42b0-80a0-5e0369c353ac",
+        "X": 428,
+        "Y": 295
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "3cb22f66-2e01-44e1-a046-bd06f4aa6775",
+        "X": 244,
+        "Y": 506
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "ce52b489-7508-425b-a7dc-632add3dfa3d",
+        "X": 338,
+        "Y": -42
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "77f28d45-48b5-4f01-ba61-d74a669daac1",
+        "X": 343,
+        "Y": 701
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "dcb557c4-d77c-4aa9-bdc1-008211f72bf4",
+        "X": 446,
+        "Y": 126
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "cd3e877f-0d20-4ebd-9852-c5a99e12fa38",
+        "X": 338,
+        "Y": -94
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "377fc044-449e-4135-9aaf-caa257f61199",
+        "X": 250,
+        "Y": 297
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "ae4b7053-892f-4d3b-80f8-b81db5be14e0",
+        "X": 404,
+        "Y": 536
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "a513b7b3-7d21-45b3-90fb-2ebe5116d2a6",
+        "X": 55,
+        "Y": 242
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "4188bd5e-afd9-4f15-a999-c82cb7978813",
+        "X": 256,
+        "Y": 481
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "2eb33c7f-f9cd-4951-9ff7-668be3a523be",
+        "X": 55,
+        "Y": 288
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "006e22f6-25db-4640-b82f-c4fcc2399775",
+        "X": 440,
+        "Y": 38
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "58410e15-9d9e-4065-a072-4a01e673aa1f",
+        "X": 246,
+        "Y": 347
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "341ad045-197d-4043-b798-8a537c0d1c94",
+        "X": 443,
+        "Y": 345
+      }
+    ]
+  },
+  "FolderId": "7fc9b890-26d2-4e78-9295-4e27f0ed9071",
+  "LoggingType": "Default",
+  "DumpOnStart": false,
+  "StepsOnError": [],
+  "FirstStepOnError": "00000000-0000-0000-0000-000000000000",
+  "PositionsOnError": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": []
+  },
+  "IsRouter": false,
+  "RouteDataTypes": [],
+  "RouteSystemDataTypes": [],
+  "Subprocess": false,
+  "IsProcessIssueFlow": true,
+  "Isolated": false,
+  "ProcessVariableNotUsed": false,
+  "Variables": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+        "DataTypeId": "0b071dd6-3fb2-4398-971f-11f5fd10380b",
+        "Name": "ОтветОтНиппель",
+        "Id": "6ce4ba2c-1f46-46bd-a7bf-83fcd3949a37",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": true
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+        "Type": "String",
+        "DecimalOptions": null,
+        "StringOptions": {
+          "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+          "Length": 50,
+          "MaxLength": true,
+          "AutoTrim": true
+        },
+        "DateTimeOptions": null,
+        "Name": "response",
+        "Id": "1a15e232-4179-4c9d-8b66-a927e0bab762",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": true
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+        "DataTypeId": "281e491d-ae85-4c58-91eb-4757fece6aa3",
+        "Name": "nipСообщениеВТелеграмм",
+        "Id": "d43e9b96-520f-4ad5-bbf1-a8d9a160a33e",
+        "IsArray": false,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": true
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+      "Field": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+        "DataTypeId": "ca0b0865-c514-463b-a676-88096295d301",
+        "Name": "nip_errors",
+        "Id": "bd6c2f68-cae3-4c24-aa5d-62f60f682da0",
+        "IsArray": true,
+        "IsRequired": false,
+        "IsNullable": false,
+        "Description": "",
+        "Properties": {
+          "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+        },
+        "AttributeId": "00000000-0000-0000-0000-000000000000"
+      },
+      "IsSystem": false,
+      "IsReadonly": false,
+      "Description": "",
+      "InVariable": true,
+      "OutVariable": true
+    }
+  ],
+  "Values": [],
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "nipЦеныУслуг": 2,
+    "ОтветОтНиппель": 3,
+    "response": 4,
+    "nipСообщениеВТелеграмм": 6,
+    "nip_errors": 8
+  },
+  "EntityId": "f0703b89-9222-477f-9513-ee4928b39867",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipВыгрузкаЦенУслуг",
+  "Description": "(Ниппель) Выгрузка цен услуг",
+  "Comment": null,
+  "Version": 7,
+  "TagsCollection": []
+}

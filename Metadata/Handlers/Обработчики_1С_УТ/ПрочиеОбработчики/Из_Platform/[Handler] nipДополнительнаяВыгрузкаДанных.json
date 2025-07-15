@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipДополнительнаяВыгрузкаДанных [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "7d705df8-a767-4276-8101-a58739c66135",
+    "Name": "nipДополнительнаяВыгрузкаДанных",
+    "Id": "c0f56379-36c5-40ea-846b-ae39de7e5ef9",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "6bbf0d24-137d-4f67-9ed4-74b038719372",
+  "EntityId": "1f3dff74-f067-4b2c-a3c5-898defc3036b",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipДополнительнаяВыгрузкаДанных",
+  "Description": "(Ниппель) Дополнительная выгрузка данных",
+  "Comment": null,
+  "Version": 11,
+  "TagsCollection": []
+}

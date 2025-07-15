@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("nip_width");
+InitMessage.SetDataType(Metadata.DataTypes.nipШиринаСечения);
+InitMessage.SetBody(request);

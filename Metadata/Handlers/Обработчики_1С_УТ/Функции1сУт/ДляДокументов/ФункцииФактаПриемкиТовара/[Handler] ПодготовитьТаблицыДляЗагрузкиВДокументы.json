@@ -1,0 +1,91 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerFunction1C, DT_Core",
+  "Synchronously": false,
+  "Integration": "ToPlatform",
+  "Type": "Function1C",
+  "Code": "[Handler] ПодготовитьТаблицыДляЗагрузкиВДокументы [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ДокументОснование",
+      "Id": "b7daeba5-0ae4-41ac-88f1-9d22615af357",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ТЗ_ТоварыФакт",
+      "Id": "f051a428-8f5f-4f73-a38e-26773212619d",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ТЗ_Расхождения",
+      "Id": "21f24e1f-45d4-43c2-89d6-c85de46f33ac",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ТЗ_ЗагруженныеКМ_Из_WMS",
+      "Id": "3beddf4f-d060-4682-9a70-436d14286927",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": null,
+  "FolderId": "f4e1a3db-7ca8-473f-8878-0a2cd37e4ecb",
+  "EntityId": "3d4d58b0-4eee-4ece-96dc-de34ea6b8def",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ПодготовитьТаблицыДляЗагрузкиВДокументы",
+  "Description": "ПодготовитьТаблицыДляЗагрузкиВДокументы",
+  "Comment": null,
+  "Version": 16,
+  "TagsCollection": []
+}

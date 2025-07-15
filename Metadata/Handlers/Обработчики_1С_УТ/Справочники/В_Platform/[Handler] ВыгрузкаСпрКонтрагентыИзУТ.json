@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаСпрКонтрагентыИзУТ [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.Контрагенты",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "80f44be1-fbfc-48d3-a72a-24cc485799d9",
+    "Name": "Контрагенты",
+    "Id": "c554aef5-cd18-4b75-9564-ca97da41d887",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "83f799c8-993a-42cb-be28-e60ca2b61bd7",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаСпрКонтрагентыИзУТ",
+  "Description": "Выгрузка спр. Контрагенты из УТ",
+  "Comment": "Сгенерировано на основании внешнего типа данных [80f44be1-fbfc-48d3-a72a-24cc485799d9, Контрагенты] 29.07.2024 08:48:44",
+  "Version": 26,
+  "TagsCollection": []
+}

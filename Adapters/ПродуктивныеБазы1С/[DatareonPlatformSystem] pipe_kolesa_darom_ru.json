@@ -1,0 +1,256 @@
+{
+  "$type": "DT.ClusterConfiguration.DtSystem, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebSystemSimpleConfig, DT_ConfigurationRepository",
+    "ConnectorType": "WebSimple",
+    "Protocol": "Rest",
+    "Format": "Json",
+    "AsServer": {
+      "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebServerConfig, DT_ConfigurationRepository",
+      "Esb24": false,
+      "BodyType": "ByteArray",
+      "ToPlatform": false,
+      "FromPlatform": false,
+      "PortToPlatform": 0,
+      "PortFromPlatform": 0,
+      "UseHttps": false,
+      "AuthTypeRest": "Bearer",
+      "SslProtocols": [],
+      "AuthForProcesses": false,
+      "CredentialsInBody": true,
+      "IsRateLimitingEnabled": false,
+      "RateLimiterOptions": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.RateLimiter.WebSimpleRateLimiterOptions, DT_ConfigurationRepository",
+        "RejectedStatusCode": 429,
+        "ControllerLimit": 1000000000
+      }
+    },
+    "AsClient": {
+      "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebClientConfig, DT_ConfigurationRepository",
+      "ToPlatform": false,
+      "FromPlatform": true,
+      "ReadCookiesToPlatform": false,
+      "ReadHeadersToPlatform": false,
+      "ResponceCodes": [],
+      "Path": "https://pipe.kolesa-darom.ru",
+      "AuthTypeSoap": "Auto",
+      "AuthTypeRest": "Anonymous",
+      "AuthPath": null,
+      "Account": {
+        "$type": "DT.ClusterConfiguration.Account, DT_Core",
+        "UserName": "ОбменДОКОРП",
+        "Password": "gatE9nhCmfwtPZG7fQksHw==",
+        "PasswordNew": null,
+        "UseCredential": false
+      },
+      "ThreadCountFromPlatform": 0,
+      "Authorization": null,
+      "ProxyOptions": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.ProxyOptions, DT_ConfigurationRepository",
+        "UseCustomProxy": false,
+        "ProxyAddress": "",
+        "BypassProxyOnLocal": true,
+        "UseDefaultCredentials": true,
+        "NeedServerAuthentication": true
+      },
+      "SetClientCertificateFromFile": false,
+      "AllowIfServerCertificateValidationFailed": false
+    },
+    "ReplyStoreTime": 0,
+    "PublishSwagger": true,
+    "TimeOut": 60,
+    "Auth": {
+      "$type": "DT.ClusterConfiguration.AuthenticationConfig, DT_Core",
+      "Enabled": false,
+      "UsePasswordHash": false
+    },
+    "HandlersList": [
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "be07ece6-857f-4d9a-bc23-fc0e935adf2a",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "75561cee-ec68-4af4-869b-48b516519a30",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "ea6b8923-15a8-4b3e-86b8-b3421c239df9",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "c3a0c405-fdeb-4bee-ac74-5e765b975d5c",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "8ed9e1c2-b357-456f-a9e4-17245e9aad30",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "bce5366b-db77-429f-8ab1-60739e3e46ee",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "d3f32030-1157-4dc8-af4a-ecfe88bc2df7",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "b4eee240-d254-4360-b4aa-45fd190558a7",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "126d3890-4791-40b2-a32c-e1b8c5145d83",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "f331ec46-74c2-4627-8609-56a5ede41baa",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "115c2729-64e5-4f70-ae13-1845d09bf7ac",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "3f648179-8081-4caf-b543-20f1cac79ad1",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "0d8569c2-bc1a-4073-8f91-687993459ef6",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "213ab514-96e5-48ac-b82b-ea19c3f18703",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "52e8e64e-836f-4fdf-9c1a-518fbcbbe323",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "49de23be-888f-454c-b4f3-7960d16765a4",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "9876ed09-76c0-4e3d-b115-96f7c1f21ae9",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "94701c31-7bf3-444c-9bf0-b22ae96ea4fd",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "35047bd4-5ae5-47f2-a41e-27d7b3a7172a",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "61a6d1d7-7e26-48be-82a1-5c69970b3d27",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "658a73ae-553d-4da6-9d5a-b40441ce7bdf",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "60f72696-1b20-4efe-814d-d5d239928c71",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "beef03e2-5347-4d6d-856e-4b28091485ca",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "4b0116cd-d5c0-442f-a422-5e863917d2d1",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "64c96b4c-aced-412e-aeef-91b08f7553fe",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "a2f677de-6ac9-4aec-8bfc-f2d6cfede852",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "996a824a-a38b-43e7-8e98-8bf70cbfcf85",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "f97f326a-7d08-40e7-9e90-05a11c6043f4",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "5228da60-3df9-432c-813b-ad27f0b1beb7",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "e2d9ae5c-a7ab-49fd-b686-cb122890cea6",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "af166143-d988-4b47-8f37-199861c79687",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "c6dfcb82-d20d-4fe3-be99-6004a40798a1",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "b88b60e1-68ed-42c8-90d4-759838a17529",
+        "IsStarted": true
+      },
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "07bc5888-2da7-4506-ae85-119248745f8b",
+        "IsStarted": true
+      }
+    ],
+    "SendingStrategy": null
+  },
+  "IsActive": true,
+  "FolderId": "d3f6c474-3832-4bd2-8474-1ab85653f3ad",
+  "Servers": [
+    ""
+  ],
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "EntityId": "7e51cf07-a995-4b51-8fe7-bc722ee02a2e",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "pipe_kolesa_darom_ru",
+  "Description": "pipe.kolesa-darom.ru",
+  "Comment": null,
+  "Version": 98,
+  "TagsCollection": []
+}

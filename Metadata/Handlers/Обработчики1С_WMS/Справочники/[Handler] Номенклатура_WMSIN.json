@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] Номенклатура_WMSIN [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": "078a2746-d43a-48ac-93a7-411f0a5e60dc",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "b154e229-e871-4cf3-bfa5-e47026989fbd",
+    "Name": "wmsНоменклатура",
+    "Id": "9442c6c2-0ea1-4ace-a7ce-1fe8763a07ed",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "wmsНоменклатура",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "334c710d-1e55-4855-b15d-c82a03a5b3b6",
+  "EntityId": "5264598a-2f5f-4167-9658-30fddd6a062d",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Номенклатура_WMSIN",
+  "Description": "Номенклатура_WMSIN",
+  "Comment": null,
+  "Version": 77,
+  "TagsCollection": []
+}

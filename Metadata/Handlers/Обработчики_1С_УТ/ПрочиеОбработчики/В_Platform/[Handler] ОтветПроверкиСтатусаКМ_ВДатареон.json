@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ОтветПроверкиСтатусаКМ_ВДатареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ОтветПроверкиКМ",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "45ffbc93-dd93-43d1-b659-ca913cf3b30e",
+    "Name": "ОтветНаВыпускНовыхКМ",
+    "Id": "c119a0a8-060f-49aa-930d-47b7d7a4c96c",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "3474abdd-0af0-4993-a16f-122ceb841fcf",
+  "EntityId": "9dec22e5-103a-40ed-84e0-12d615f28143",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ОтветПроверкиСтатусаКМ_ВДатареон",
+  "Description": "Ответ проверки статуса КМ в Datareon",
+  "Comment": null,
+  "Version": 13,
+  "TagsCollection": []
+}

@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] СправочникТранспорт_ВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.Транспорт",
+  "SystemDataTypeId": "1a6e4edc-9fcb-4411-98a5-a3dafa558f5b",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "1a6e4edc-9fcb-4411-98a5-a3dafa558f5b",
+    "Name": "Транспорт",
+    "Id": "7cb7363f-f781-4325-9c25-096b4af13949",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "091a884a-721b-4a04-84ef-143795d2f644",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СправочникТранспорт_ВPlatform",
+  "Description": "Выгрузка транспорта из УТ в Datareon",
+  "Comment": "Сгенерировано на основании внешнего типа данных [1a6e4edc-9fcb-4411-98a5-a3dafa558f5b, Транспорт] 14.06.2024 10:47:21",
+  "Version": 8,
+  "TagsCollection": []
+}

@@ -1,0 +1,2 @@
+string request = InitMessage.GetProperty<string>("nip_nomenclature");
+InitMessage.SetBody(request);

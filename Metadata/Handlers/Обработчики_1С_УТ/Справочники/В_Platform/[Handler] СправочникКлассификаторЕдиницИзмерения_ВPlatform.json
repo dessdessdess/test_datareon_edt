@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] СправочникКлассификаторЕдиницИзмерения_ВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.КлассификаторЕдиницИзмерения",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "67400fc6-c638-4445-b237-355d37a4c9ed",
+    "Name": "КлассификаторЕдиницИзмерения",
+    "Id": "7a9f6b7b-3d77-4d94-815b-308914e39d6e",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "0b6e8f58-849b-43e9-bbd9-58893be05454",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СправочникКлассификаторЕдиницИзмерения_ВPlatform",
+  "Description": "Выгрузка классификатора ЕИ из УТ в Datareon",
+  "Comment": "Сгенерировано на основании внешнего типа данных [67400fc6-c638-4445-b237-355d37a4c9ed, КлассификаторЕдиницИзмерения] 11.06.2024 09:29:29",
+  "Version": 8,
+  "TagsCollection": []
+}

@@ -1,0 +1,49 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ЗапросОстатковWMS_OUT_ИзPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "a3a463b9-1fba-4769-bead-76794cbd7bc5",
+    "Name": "СтруктураЗапросаОстатков",
+    "Id": "7ba8ac37-2201-41e5-9154-631faf294b27",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "a9340b32-82ff-4dff-b606-c0443aba2b72",
+    "Name": "ЗапросОстатков",
+    "Id": "1981cdeb-fbc0-416b-ad97-2e993c2858ec",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "8d94ea6c-7813-4c6d-969b-87bcc959e920",
+  "EntityId": "6fb88884-4e14-44ce-b694-e2b3f3945bf3",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ЗапросОстатковWMS_OUT_ИзPlatform",
+  "Description": "Запрос остатков WMS_OUT (Из Platform)",
+  "Comment": "Сгенерировано на основании типа данных [c3de4781-d7a7-4f93-9456-d70877a4d30f, СтруктураПолученияОстатков] 06.08.2024 14:30:35",
+  "Version": 76,
+  "TagsCollection": []
+}

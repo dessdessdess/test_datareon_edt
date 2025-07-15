@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] РсСтатусыДокументовИСМПвDatareon [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "РегистрСведений.СтатусыДокументовИСМП",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "f7b15052-4cb4-4d25-8832-cd464d7fff61",
+    "Name": "ОтветНаВыпускНовыхКМ",
+    "Id": "366c3b5f-2ec9-4024-8ab5-489c0ad009a8",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "6479b4a1-a6cb-4a07-98cf-62655f6e0bb7",
+  "EntityId": "26676566-4df1-47f8-ac52-f11a2e237707",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "РсСтатусыДокументовИСМПвDatareon",
+  "Description": "РС Статусы документов ИСМП в Datareon",
+  "Comment": "Сгенерировано на основании внешнего типа данных [312d3542-249c-4389-83f9-f6a697a0e064, СтатусыДокументовИСМП] 08.08.2024 12:42:14",
+  "Version": 49,
+  "TagsCollection": []
+}

@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] РсПричиныВычерковWmsИзPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "6ead012f-b605-461a-bd2a-5572e1512cce",
+    "Name": "ПричинаНеотправкиТовараСоСКлада",
+    "Id": "aff6820c-f37b-4eed-adac-12d8773fe1d8",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "79f488a7-8267-4794-93f4-9428a3a1b9f6",
+  "EntityId": "68f77316-4e9a-439e-980e-cdd2bc90bd78",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "РсПричиныВычерковWmsИзPlatform",
+  "Description": "РС Причины вычерков WMS из Datareon",
+  "Comment": "",
+  "Version": 12,
+  "TagsCollection": []
+}

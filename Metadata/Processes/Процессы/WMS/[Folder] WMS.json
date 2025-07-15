@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "3f638c8e-db5e-499c-8203-e2f1ec68503e",
+  "ChildrenType": "Processes",
+  "EntityId": "9de5ec8a-cb40-45af-9daf-5fb43c6c1c25",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "WMS",
+  "Description": "WMS",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

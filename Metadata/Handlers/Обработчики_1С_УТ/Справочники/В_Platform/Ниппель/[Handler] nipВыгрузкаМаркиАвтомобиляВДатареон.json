@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipВыгрузкаМаркиАвтомобиляВДатареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "МодельАвтомобиляНиппель",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "07e26688-3c5a-4066-b888-54f236dbbade",
+    "Name": "nipМодельАвтомобиля",
+    "Id": "9fc94482-d584-4cab-8596-db9320692748",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "15244a09-8828-4537-947d-21e79ab111e0",
+  "EntityId": "1561167e-6caa-4a1e-8fc8-c67b4c5661c6",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipВыгрузкаМаркиАвтомобиляВДатареон",
+  "Description": "(Ниппель) Выгрузка модели автомобиля в Datareon",
+  "Comment": "Для выгрузки модели автомобиля в Ниппель",
+  "Version": 79,
+  "TagsCollection": []
+}

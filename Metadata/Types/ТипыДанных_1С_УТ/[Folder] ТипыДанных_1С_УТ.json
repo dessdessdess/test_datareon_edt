@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "d794a80e-2764-4e4e-ac61-efec270348c5",
+  "ChildrenType": "Types",
+  "EntityId": "9bc388bc-be06-432c-9b58-41d0b0a01760",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ТипыДанных_1С_УТ",
+  "Description": "Типы данных 1С_УТ",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

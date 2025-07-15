@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ФактОтгрузки_WMSOUT [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ФактОтгрузки",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "7c2fec1f-9bfc-4d11-ae67-34e1f7635f29",
+    "Name": "ФактОтгрузкиМассив",
+    "Id": "95e0882e-ebd7-456d-ab40-7696b437fc42",
+    "IsArray": true,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "26b71aeb-d8f5-4f55-9012-39b38baff7a7",
+  "EntityId": "29fd35d8-56cc-49fb-9ba1-8a1e248329cc",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ФактОтгрузки_WMSOUT",
+  "Description": "ФактОтгрузки_WMSOUT",
+  "Comment": null,
+  "Version": 29,
+  "TagsCollection": []
+}

@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ОтветПроверкиКМвУТWMSIN [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ПроверкаКМВКИС",
+  "SystemDataTypeId": "90d65e32-8335-41a0-9a62-82cf6809beeb",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "45ffbc93-dd93-43d1-b659-ca913cf3b30e",
+    "Name": "ОтветПроверкиКМвУТ",
+    "Id": "6e6ceaec-c516-4345-b48c-01b112e52203",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "f55e768c-59ca-4248-b11e-b6081e516407",
+  "EntityId": "c309ec2a-8abb-43d7-8d77-89e806be8554",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ОтветПроверкиКМвУТWMSIN",
+  "Description": "Ответ проверки КМ в УТ_WMSIN",
+  "Comment": "DEV.0028. Разработка процесса получение ответа на запрос проверки КМ в УТ отобранных КМ",
+  "Version": 12,
+  "TagsCollection": []
+}

@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("service_center_fias");
+InitMessage.SetDataType(Metadata.DataTypes.nipФИАС);
+InitMessage.SetBody(request);

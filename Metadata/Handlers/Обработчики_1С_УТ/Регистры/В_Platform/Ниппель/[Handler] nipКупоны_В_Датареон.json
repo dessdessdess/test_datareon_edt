@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipКупоны_В_Датареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "nipКупоны",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "ff02f58c-e7f0-47a6-b703-06d250ba484e",
+    "Name": "nipКупоны",
+    "Id": "0ddccede-0a37-4f66-9d2b-ccdce56e1096",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "21dcbe28-c55d-418e-aad0-cc2eff94446e",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipКупоны_В_Датареон",
+  "Description": "(Ниппель) Купоны в Datareon",
+  "Comment": "",
+  "Version": 3,
+  "TagsCollection": []
+}

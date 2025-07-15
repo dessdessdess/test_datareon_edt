@@ -1,0 +1,5 @@
+var BP1 = new EscapeMarkdownV2();
+BP1.text =  LastException.ToString(); 
+Executor.Execute(BP1);
+
+nipСообщениеВТелеграмм.text = $"{InitSource.ToString()} ```\n{BP1.escapedText}\n```";

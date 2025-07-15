@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipВремяРаботыСервисныхЦентровВ_ДатареонОтклонения [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "РегистрСведений.ВремяРаботыСервисныхЦентровОтклонения",
+  "SystemDataTypeId": "64565543-9988-44af-a0d5-87dae44eb417",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "8a21b020-220e-48f2-8488-030c7d8750b3",
+    "Name": "ВремяРаботыСервисныхЦентровОтклонения",
+    "Id": "bfbb710b-a0e1-4260-953e-25a7ebbe08f8",
+    "IsArray": true,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "96ddc1fd-ff20-4bc2-bf50-3d3c0a528719",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipВремяРаботыСервисныхЦентровВ_ДатареонОтклонения",
+  "Description": "(Ниппель) Время работы сервисных центров отклонения в Datareon",
+  "Comment": "Для выгрузки в Ниппель",
+  "Version": 28,
+  "TagsCollection": []
+}

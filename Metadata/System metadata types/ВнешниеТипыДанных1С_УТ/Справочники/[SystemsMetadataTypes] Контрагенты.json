@@ -1,0 +1,228 @@
+{
+  "$type": "DT.MdmMetadata.Types.SystemsMetadataTypes, DT_Core",
+  "SystemId": [],
+  "OriginalName": "Контрагенты",
+  "OriginalBaseClass": "Справочник",
+  "AssociatedDataTypes": [],
+  "Shema": null,
+  "FolderId": "6c6b088a-9500-468b-ba2e-a623435dad74",
+  "ClassId": 0,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Guid",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "Ссылка",
+      "Id": "a2570fca-c246-47f6-95f2-3d66bd9f6c84",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Boolean",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ПометкаУдаления",
+      "Id": "1d8fbaf9-210a-40cc-8e45-5274cd4bedaf",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 100,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "Наименование",
+      "Id": "6eb75415-dcee-4b82-81d2-b5e980349794",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 9,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "Код",
+      "Id": "af727d5e-88bc-4c82-b90e-5fecb0ce3fb7",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 12,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "ИНН",
+      "Id": "d32e5535-035e-48cf-a9d7-368bd04d1e55",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "Реквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 9,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "КПП",
+      "Id": "9ed9356b-4c7c-4b58-8ab2-182c614450c7",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "Реквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 0,
+        "MaxLength": true,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "НаименованиеПолное",
+      "Id": "feffee00-f007-4108-a231-0fd6c2b63c3a",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "Реквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Boolean",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "Покупатель",
+      "Id": "e3515f37-8c99-4cc6-aa1c-9d2e8a4a4446",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "Реквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Boolean",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "Поставщик",
+      "Id": "c8ea809e-48ed-4899-99ad-f83a60d76657",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "Реквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "Ссылка": 1,
+    "ПометкаУдаления": 2,
+    "Наименование": 3,
+    "Код": 4,
+    "ИНН": 5,
+    "КПП": 6,
+    "НаименованиеПолное": 7,
+    "Покупатель": 8,
+    "Поставщик": 9
+  },
+  "EntityId": "80f44be1-fbfc-48d3-a72a-24cc485799d9",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Контрагенты",
+  "Description": "Контрагенты",
+  "Comment": "Импортировано из ИБ brinex_tronin.a (sv-dev01:2341) 29.07.2024 05:09:13",
+  "Version": 4,
+  "TagsCollection": []
+}

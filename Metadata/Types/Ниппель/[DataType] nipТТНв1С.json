@@ -1,0 +1,66 @@
+{
+  "$type": "DT.MdmMetadata.Types.DataType, DT_Core",
+  "FieldsTemplates": [],
+  "Categories": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.CategoriesGroupField, DT_Core",
+    "Codes": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "Items": [],
+    "Name": "Категории",
+    "Id": "4cee9657-f8dd-4408-8378-4cd3a8b29843",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "PortalSettings": {
+    "$type": "DT.MdmMetadata.Types.PortalSettings, DT_Core",
+    "FormElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GridHistoryChangesId": "00000000-0000-0000-0000-000000000000",
+    "DataSourceHistoryChangeObjectConfigId": "00000000-0000-0000-0000-000000000000",
+    "FormElementViewerReadOnlyId": "00000000-0000-0000-0000-000000000000",
+    "GridElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GroupHistoryChangeDataOn": false,
+    "DisplayName": "",
+    "Description": null,
+    "FullDescription": null,
+    "VisibleCategoryAttributesAsFlagOn": true,
+    "TypesCategoryColumnView": {},
+    "LinkFieldAsNotSelector": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "DisplayFieldNames": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "SeparateCategoriesTypeViewOnForm": {},
+    "LinkFieldTypeView": {}
+  },
+  "FolderId": "b2ea0915-138c-421a-9d47-655569836ffe",
+  "ClassId": 1059,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "EntityId": "06169f7f-d314-4f26-b694-d8f474fd2a3f",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipТТНв1С",
+  "Description": "(Ниппель) ТТН в 1С",
+  "Comment": null,
+  "Version": 2,
+  "TagsCollection": []
+}

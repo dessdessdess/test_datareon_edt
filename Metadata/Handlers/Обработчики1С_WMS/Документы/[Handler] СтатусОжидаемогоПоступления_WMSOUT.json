@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] СтатусОжидаемогоПоступления_WMSOUT [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "СтатусОжидаемогоПоступления",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "5eb1fa61-967d-453d-9dcd-c0fde9f9bb72",
+    "Name": "СтатусыПриемкиТоваров",
+    "Id": "80951b40-7644-44ea-84a6-00f0324159ce",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "26b71aeb-d8f5-4f55-9012-39b38baff7a7",
+  "EntityId": "abc264c1-28f4-4f63-b3f6-0b9a6099f681",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СтатусОжидаемогоПоступления_WMSOUT",
+  "Description": "СтатусОжидаемогоПоступления_WMSOUT",
+  "Comment": null,
+  "Version": 6,
+  "TagsCollection": []
+}

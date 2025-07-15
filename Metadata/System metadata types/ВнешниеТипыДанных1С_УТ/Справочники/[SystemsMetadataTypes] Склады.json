@@ -1,0 +1,137 @@
+{
+  "$type": "DT.MdmMetadata.Types.SystemsMetadataTypes, DT_Core",
+  "SystemId": [],
+  "OriginalName": "Склады",
+  "OriginalBaseClass": "Справочник",
+  "AssociatedDataTypes": [],
+  "Shema": null,
+  "FolderId": "6c6b088a-9500-468b-ba2e-a623435dad74",
+  "ClassId": 0,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Guid",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "Ссылка",
+      "Id": "81ccc0c2-332a-482f-8194-9546d5422351",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Boolean",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "ПометкаУдаления",
+      "Id": "a9caeb81-5606-416e-8c1d-07d2519a1040",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 100,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "Наименование",
+      "Id": "9f906d51-4b9a-4ca3-b55b-09f31c307e7c",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 5,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "Код",
+      "Id": "f9aad2d8-d82a-44c9-a8d9-8bf422c7db7e",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Guid",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "Адрес",
+      "Id": "eae8eaa4-1067-4600-88cd-0c07001fdfc4",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "Реквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "Ссылка": 1,
+    "ПометкаУдаления": 2,
+    "Наименование": 3,
+    "Код": 4,
+    "Адрес": 5
+  },
+  "EntityId": "e11a4594-c7e9-43df-bcea-3d6560776cdd",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Склады",
+  "Description": "Склады",
+  "Comment": "Импортировано из ИБ brinex_tronin.a (sv-dev01:2341) 29.07.2024 05:09:13",
+  "Version": 2,
+  "TagsCollection": []
+}

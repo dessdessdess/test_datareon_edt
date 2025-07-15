@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "d9e5787c-faae-44bb-81b1-f4a8b5bc0ce6",
+  "ChildrenType": "Handlers",
+  "EntityId": "f4e1a3db-7ca8-473f-8878-0a2cd37e4ecb",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ФункцииФактаПриемкиТовара",
+  "Description": "Функции факта приемки товара",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

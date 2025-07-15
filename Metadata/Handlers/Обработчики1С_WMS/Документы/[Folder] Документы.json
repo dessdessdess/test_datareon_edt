@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "859e30ba-f55d-4a13-a488-2bb8a93e7da6",
+  "ChildrenType": "Handlers",
+  "EntityId": "26b71aeb-d8f5-4f55-9012-39b38baff7a7",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Документы",
+  "Description": "Документы",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

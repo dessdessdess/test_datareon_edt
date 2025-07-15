@@ -1,0 +1,57 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerFunction1C, DT_Core",
+  "Synchronously": false,
+  "Integration": "ToPlatform",
+  "Type": "Function1C",
+  "Code": "[Handler] nipПолучитьФИАС_ПоСервисномуЦентру [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "СервисныйЦентр",
+      "Id": "14ac44a8-a037-44eb-bb39-5c1790248134",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "мсвФИАС",
+      "Id": "4409602e-50a9-4f45-acb5-912afdd2eaf5",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": null,
+  "FolderId": "4b839686-a760-4464-bd8a-bd789622f0db",
+  "EntityId": "64eaa6e2-54ec-4769-a235-05b0c2d367f0",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipПолучитьФИАС_ПоСервисномуЦентру",
+  "Description": "(Ниппель) Получить ФИАС по сервисному центру",
+  "Comment": null,
+  "Version": 26,
+  "TagsCollection": []
+}

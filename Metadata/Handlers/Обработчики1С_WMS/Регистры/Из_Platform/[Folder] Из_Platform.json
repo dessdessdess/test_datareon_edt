@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "2bc6f428-7fd4-431c-846a-5f19f9b5f89a",
+  "ChildrenType": "Handlers",
+  "EntityId": "f55e768c-59ca-4248-b11e-b6081e516407",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Из_Platform",
+  "Description": "Из Platform",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

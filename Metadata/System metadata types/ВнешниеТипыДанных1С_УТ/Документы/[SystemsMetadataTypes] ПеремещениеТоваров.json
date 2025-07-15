@@ -1,0 +1,51 @@
+{
+  "$type": "DT.MdmMetadata.Types.SystemsMetadataTypes, DT_Core",
+  "SystemId": [],
+  "OriginalName": "ПеремещениеТоваров",
+  "OriginalBaseClass": "Документ",
+  "AssociatedDataTypes": [],
+  "Shema": null,
+  "FolderId": "962875f0-9cd5-4c35-b1d8-bc45bfa02c00",
+  "ClassId": 0,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Guid",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "Ссылка",
+      "Id": "fe35368a-7404-454e-8b20-5ef23d0f4d4a",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": null,
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "СтандартныйРеквизит": "true"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "Ссылка": 1
+  },
+  "EntityId": "13cfadb3-8321-4c1b-87b9-779ebe4191cc",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ПеремещениеТоваров",
+  "Description": "Перемещение товаров",
+  "Comment": "Импортировано из ИБ brinex_tronin.a (sv-dev01:2341) 15.07.2024 11:37:50",
+  "Version": 5,
+  "TagsCollection": []
+}

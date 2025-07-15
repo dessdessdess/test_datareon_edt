@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("nip_radius");
+InitMessage.SetDataType(Metadata.DataTypes.nipРадиус);
+InitMessage.SetBody(request);

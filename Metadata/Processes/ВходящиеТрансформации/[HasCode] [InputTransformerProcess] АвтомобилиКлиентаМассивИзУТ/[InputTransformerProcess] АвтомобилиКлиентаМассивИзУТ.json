@@ -1,0 +1,297 @@
+{
+  "$type": "DT.MdmMetadata.Transformation.InputTransformerProcess, DT_Core",
+  "FirstStep": "9eca1129-1cca-49c8-9a5b-4b71b54f6a18",
+  "Steps": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.CustomAlgorithmStepInfo, DT_Core",
+      "Code": "[AlgorithmCode] 784995e1-0fd7-47cc-bb1f-bf5bfec0c3f8 [Code].ext",
+      "SourceCodeType": "Code",
+      "ModuleId": null,
+      "AlgorithmId": null,
+      "NeedLocalScope": false,
+      "HasAlgorithm": false,
+      "AlgorithmIdAsGuid": "00000000-0000-0000-0000-000000000000",
+      "Id": "784995e1-0fd7-47cc-bb1f-bf5bfec0c3f8",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Steps.MessageStorageWriteStepInfo, DT_Core",
+      "Messages": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "21ec5538-d92f-47cc-96b6-9db46fa432ba",
+        "Type": "Variable",
+        "IsExact": false
+      },
+      "OnResponse": "784995e1-0fd7-47cc-bb1f-bf5bfec0c3f8",
+      "OnNotResponse": "00000000-0000-0000-0000-000000000000",
+      "Timeout": 10000,
+      "CheckVersion": false,
+      "RejectResentMessages": true,
+      "HasSystemVariables": true,
+      "Id": "9eca1129-1cca-49c8-9a5b-4b71b54f6a18",
+      "Next": "00000000-0000-0000-0000-000000000000",
+      "OnError": "00000000-0000-0000-0000-000000000000",
+      "Description": "",
+      "Comment": null,
+      "Locals": [],
+      "LocalToGlobal": [],
+      "GlobalToLocal": [],
+      "Values": [],
+      "LogLevel": "Verbose",
+      "LogDetails": "",
+      "NeedLocalScope": false,
+      "HasSwitch": false,
+      "SwitchVariable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": null,
+        "Type": "Text",
+        "IsExact": false
+      },
+      "Conditions": [],
+      "ScheduledProcessCallingData": null
+    }
+  ],
+  "Positions": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionRegister, DT_Core",
+    "Positions": [
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-1111-1111-1111-111111111111",
+        "X": 53,
+        "Y": 68
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "11111111-2222-3333-4444-555555555555",
+        "X": 200,
+        "Y": 400
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "0298e6f4-a5f5-4680-beec-28a6ca1bdc1d",
+        "X": 223,
+        "Y": 245
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "33fc6fb2-93e8-4107-9a91-204ca6dda940",
+        "X": 60,
+        "Y": 239
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "e5e7999a-17f9-4f58-8c96-3d29179733c5",
+        "X": 281,
+        "Y": 281
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "873d1e4b-8010-40e5-abfb-8b06a3a6e4c7",
+        "X": 244,
+        "Y": 445
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "d209c265-f1cd-478a-a3e1-c8f75e267644",
+        "X": 52,
+        "Y": 224
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "7b1e459b-e140-4aeb-8395-643cf8f00756",
+        "X": 54,
+        "Y": 192
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "ca7fb907-a8e7-4da6-8c6b-8375b321c820",
+        "X": 237,
+        "Y": 317
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "f5f142f1-e768-4d59-82fb-4969841140a3",
+        "X": 306,
+        "Y": 340
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "3b88726f-b0d8-49b2-b388-58bad86bd1a8",
+        "X": 40,
+        "Y": 549
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "86df75f5-6496-4cc3-8dd1-a96e923a0e6a",
+        "X": 129,
+        "Y": 545
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "f749d79f-9389-4a18-b443-de854c0908bf",
+        "X": 38,
+        "Y": 526
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "0daca9e4-1d09-40a7-8b42-79f97c24e39f",
+        "X": 24,
+        "Y": 407
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "d882b8ee-e76c-4134-a011-ab0207928da3",
+        "X": 259,
+        "Y": 416
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "cf674a36-a9b4-4abd-a57b-45f0807ec7e6",
+        "X": 326,
+        "Y": 400
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "eef779a6-cc10-4f33-840a-e621ccba57b8",
+        "X": 67,
+        "Y": 514
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "c5c5b25a-bbb2-45e5-86bb-ebc3909239d0",
+        "X": 24,
+        "Y": 424
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "89f5c6d6-14cc-473e-9759-5702ded901f6",
+        "X": 314,
+        "Y": 322
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "35f7935b-c366-4baa-88ee-44b348ec8910",
+        "X": 57,
+        "Y": 157
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "784995e1-0fd7-47cc-bb1f-bf5bfec0c3f8",
+        "X": 51,
+        "Y": 184
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "3978b628-9279-4a36-a5ba-114db8cd2bbf",
+        "X": 248,
+        "Y": 128
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "1ad5c0d1-e48b-41eb-8893-8c3f77015e54",
+        "X": 269,
+        "Y": 131
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "64404693-e07d-4278-84d5-8daaf8dcfdd1",
+        "X": 79,
+        "Y": 126
+      },
+      {
+        "$type": "DT.MdmMetadata.BusinessProcesses.Steps.Positions.ControlPositionData, DT_Core",
+        "Id": "9eca1129-1cca-49c8-9a5b-4b71b54f6a18",
+        "X": 53,
+        "Y": 129
+      }
+    ]
+  },
+  "LoggingType": "Default",
+  "DumpOnStart": false,
+  "IsRouter": false,
+  "IsProcessIssueFlow": false,
+  "Isolated": false,
+  "InVariable": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+    "Field": {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+      "DataTypeId": "e1eb245e-60b0-44f1-9b53-783b934944f6",
+      "Name": "nipАвтомобилиКлиентаМассив",
+      "Id": "0f4b18e0-9177-433a-9e7b-1ccf26dcf18a",
+      "IsArray": true,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    "IsSystem": false,
+    "IsReadonly": false,
+    "Description": "",
+    "InVariable": true,
+    "OutVariable": true
+  },
+  "OutVariable": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.BusinessVariable, DT_Core",
+    "Field": {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+      "DataTypeId": "dc745502-5d7a-4d99-930f-28ce766f0266",
+      "Name": "nipАвтомобилиКлиента",
+      "Id": "170ee048-5003-4352-86bf-e647ea51a06a",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    "IsSystem": false,
+    "IsReadonly": false,
+    "Description": "",
+    "InVariable": true,
+    "OutVariable": true
+  },
+  "InVariableToOut": false,
+  "ReturnToAnotherTransformations": false,
+  "Systems": [
+    "ef2f0a8f-80d1-447b-8997-a7d8f854cdec"
+  ],
+  "AutoStart": true,
+  "ProcessVariableNotUsed": false,
+  "Variables": [],
+  "Values": [],
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "nipАвтомобилиКлиентаМассив": 2,
+    "nipАвтомобилиКлиента": 3
+  },
+  "EntityId": "c776165c-bd05-48f8-8f5b-ed1c3cce34c3",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "АвтомобилиКлиентаМассивИзУТ",
+  "Description": "Автомобили клиента Массив из УТ",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": []
+}

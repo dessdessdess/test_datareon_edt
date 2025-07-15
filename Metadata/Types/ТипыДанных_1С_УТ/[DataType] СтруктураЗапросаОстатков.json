@@ -1,0 +1,421 @@
+{
+  "$type": "DT.MdmMetadata.Types.DataType, DT_Core",
+  "FieldsTemplates": [],
+  "Categories": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.CategoriesGroupField, DT_Core",
+    "Codes": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "Items": [],
+    "Name": "Категории",
+    "Id": "6e571c95-680f-4e69-acba-6361b8713b73",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "PortalSettings": {
+    "$type": "DT.MdmMetadata.Types.PortalSettings, DT_Core",
+    "FormElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GridHistoryChangesId": "00000000-0000-0000-0000-000000000000",
+    "DataSourceHistoryChangeObjectConfigId": "00000000-0000-0000-0000-000000000000",
+    "FormElementViewerReadOnlyId": "00000000-0000-0000-0000-000000000000",
+    "GridElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GroupHistoryChangeDataOn": false,
+    "DisplayName": "",
+    "Description": null,
+    "FullDescription": null,
+    "VisibleCategoryAttributesAsFlagOn": true,
+    "TypesCategoryColumnView": {},
+    "LinkFieldAsNotSelector": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "DisplayFieldNames": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "SeparateCategoriesTypeViewOnForm": {},
+    "LinkFieldTypeView": {}
+  },
+  "FolderId": "9bc388bc-be06-432c-9b58-41d0b0a01760",
+  "ClassId": 5,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 36,
+        "MaxLength": false,
+        "AutoTrim": false
+      },
+      "DateTimeOptions": null,
+      "Name": "ИдентификаторЗапроса",
+      "Id": "2b9d336f-b406-4ca0-ad17-8b81482cab74",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "DateTime",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": {
+        "$type": "DT.MdmMetadata.Types.DateTimeOptions, DT_TypeBuilder.Entities",
+        "MinYear": 1900,
+        "AutoTrim": false,
+        "Kind": 1
+      },
+      "Name": "ДатаЗапроса",
+      "Id": "5c3f2b5d-3997-4e92-a04d-a45557acb86c",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "Boolean",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "САдресамиХранения",
+      "Id": "f8110cdf-4b84-4039-b756-b27010181da1",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.ComplexField, DT_Core",
+      "Codes": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "Номенклатура": 1,
+        "Характеристика": 2,
+        "Партия": 3,
+        "Склад": 4,
+        "НаименованиеНоменклатуры": 5,
+        "НаименованиеХарактеристики": 6,
+        "НаименованиеПартии": 7,
+        "ДатаПроизводстваПартии": 8,
+        "Количество": 9,
+        "НоменклатурнаяГруппа": 10,
+        "МестоХраненияУровень1": 11,
+        "МестоХраненияУровень2": 12
+      },
+      "ChildFields": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 36,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "Номенклатура",
+          "Id": "aec16f95-03d4-4696-b4d1-60b3ea4a8360",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 36,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "Характеристика",
+          "Id": "2ba84a29-68db-4b09-a695-71b746ab877b",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 36,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "Партия",
+          "Id": "17d0ac8e-5bf7-4a03-b4b3-8e479eb1050e",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 36,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "Склад",
+          "Id": "16e0aada-abf9-4166-81f7-dfbb85736e9e",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": true,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "НаименованиеНоменклатуры",
+          "Id": "658eed75-2011-4939-a192-63d15049f73c",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": true,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "НаименованиеХарактеристики",
+          "Id": "5fa25277-5817-4efd-bd99-995d70e4cef6",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "НаименованиеПартии",
+          "Id": "1618cd38-4b16-4576-a91d-08bf9e670052",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "ДатаПроизводстваПартии",
+          "Id": "f933073e-9d68-4adc-afe0-37c3dccde06d",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "Int",
+          "DecimalOptions": null,
+          "StringOptions": null,
+          "DateTimeOptions": null,
+          "Name": "Количество",
+          "Id": "936923bf-d8d6-435c-b192-a854725e1bd8",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 36,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "НоменклатурнаяГруппа",
+          "Id": "354e45c1-1483-4dfd-bf66-26155ee1992b",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "МестоХраненияУровень1",
+          "Id": "e6bdd89a-1c0a-4c5d-9e45-fce340415a03",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+          "Type": "String",
+          "DecimalOptions": null,
+          "StringOptions": {
+            "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+            "Length": 50,
+            "MaxLength": false,
+            "AutoTrim": false
+          },
+          "DateTimeOptions": null,
+          "Name": "МестоХраненияУровень2",
+          "Id": "2ff7d221-b4ba-4b44-8b60-a5bf0521094f",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Name": "Товары",
+      "Id": "7aa9147a-eb98-4335-ae6b-23ccd1ac9ec6",
+      "IsArray": true,
+      "IsRequired": false,
+      "IsNullable": true,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "ИдентификаторЗапроса": 1,
+    "ДатаЗапроса": 2,
+    "САдресамиХранения": 4,
+    "Товары": 3
+  },
+  "EntityId": "a3a463b9-1fba-4769-bead-76794cbd7bc5",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СтруктураЗапросаОстатков",
+  "Description": "Структура запроса остатков",
+  "Comment": null,
+  "Version": 9,
+  "TagsCollection": []
+}

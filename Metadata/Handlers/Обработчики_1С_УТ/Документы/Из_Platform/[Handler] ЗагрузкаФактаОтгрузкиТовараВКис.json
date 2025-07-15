@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ЗагрузкаФактаОтгрузкиТовараВКис [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "eb179039-36dd-4edf-a5fb-3a4985e0ec0c",
+    "Name": "РеализацияТоваровУслуг",
+    "Id": "2e37d5c9-f9b4-4f4d-b321-38169bedb812",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "b37284b1-76fb-4341-9bad-f58f2a46fda5",
+  "EntityId": "ba80f468-821f-49a5-8569-a891ecf2483b",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ЗагрузкаФактаОтгрузкиТовараВКис",
+  "Description": "Загрузка факта отгрузки товара в КИС",
+  "Comment": "Сгенерировано на основании типа данных [1f7fcc1b-9973-40fb-965d-0bec4a2b0f00, ФактОтгрузкиТовара] 29.08.2024 13:24:13",
+  "Version": 59,
+  "TagsCollection": []
+}

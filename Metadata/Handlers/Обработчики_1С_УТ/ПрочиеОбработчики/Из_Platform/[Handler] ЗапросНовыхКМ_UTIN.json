@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ЗапросНовыхКМ_UTIN [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ЗапросНовыхКМВКИС",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "db5111f7-2507-4cad-97cd-0d82ed9029d1",
+    "Name": "ЗапросНаВыпускНовыхКМ",
+    "Id": "2bd02cd9-b8bb-4b58-a4d2-7f78b0f74b4e",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "6bbf0d24-137d-4f67-9ed4-74b038719372",
+  "EntityId": "2ff180af-35fe-4f53-b521-4d419de26206",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ЗапросНовыхКМ_UTIN",
+  "Description": "ЗапросНовыхКМ_UTIN",
+  "Comment": null,
+  "Version": 6,
+  "TagsCollection": []
+}

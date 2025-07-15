@@ -1,0 +1,40 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerWebClient, DT_Core",
+  "MethodType": "Post",
+  "AuthRequired": true,
+  "RouteTemplate": "sendMessage",
+  "Timeout": 1000,
+  "IsTemporary": true,
+  "ResponseAsBytes": false,
+  "Integration": "FromPlatform",
+  "Type": "WebClient",
+  "Code": null,
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": "0baa2824-f1bf-4dcf-a380-8efa5029b811",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "281e491d-ae85-4c58-91eb-4757fece6aa3",
+    "Name": "nipСообщениеВТелеграмм",
+    "Id": "49c8f535-6ba5-40b2-a217-9a2c28ce0b24",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "6ebadbc6-06ea-482a-b76f-4d9e5a241687",
+  "EntityId": "1e360846-a2cb-4be9-844f-847a3d45815b",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ОтправкаОшибкиВТелеграммПриОбменеСНиппель",
+  "Description": "Отправка ошибки в Телеграмм при обмене с Ниппель",
+  "Comment": "",
+  "Version": 3,
+  "TagsCollection": []
+}

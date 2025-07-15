@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "d794a80e-2764-4e4e-ac61-efec270348c5",
+  "ChildrenType": "Types",
+  "EntityId": "83eefefa-d47e-4a46-9372-e64048ba7744",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ПрочиеТипы",
+  "Description": "Прочие типы",
+  "Comment": null,
+  "Version": 3,
+  "TagsCollection": null
+}

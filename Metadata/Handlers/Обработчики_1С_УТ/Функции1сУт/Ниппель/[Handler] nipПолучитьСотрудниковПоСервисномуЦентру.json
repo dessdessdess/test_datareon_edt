@@ -1,0 +1,40 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerFunction1C, DT_Core",
+  "Synchronously": false,
+  "Integration": "ToPlatform",
+  "Type": "Function1C",
+  "Code": "[Handler] nipПолучитьСотрудниковПоСервисномуЦентру [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": null,
+      "DateTimeOptions": null,
+      "Name": "СотрудникиСервисногоЦентра",
+      "Id": "4409602e-50a9-4f45-acb5-912afdd2eaf5",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": null,
+  "FolderId": "4b839686-a760-4464-bd8a-bd789622f0db",
+  "EntityId": "52e6183f-dbeb-4b98-aaba-91e5734cd88c",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipПолучитьСотрудниковПоСервисномуЦентру",
+  "Description": "(Ниппель) Получить сотрудников по сервисному центру",
+  "Comment": null,
+  "Version": 24,
+  "TagsCollection": []
+}

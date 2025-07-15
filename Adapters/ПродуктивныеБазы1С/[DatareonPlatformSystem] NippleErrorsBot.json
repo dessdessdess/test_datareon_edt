@@ -1,0 +1,91 @@
+{
+  "$type": "DT.ClusterConfiguration.DtSystem, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebSystemSimpleConfig, DT_ConfigurationRepository",
+    "ConnectorType": "WebSimple",
+    "Protocol": "Rest",
+    "Format": "Json",
+    "AsServer": {
+      "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebServerConfig, DT_ConfigurationRepository",
+      "Esb24": false,
+      "BodyType": "ByteArray",
+      "ToPlatform": false,
+      "FromPlatform": false,
+      "PortToPlatform": 0,
+      "PortFromPlatform": 0,
+      "UseHttps": false,
+      "AuthTypeRest": "Bearer",
+      "SslProtocols": [],
+      "AuthForProcesses": false,
+      "CredentialsInBody": true,
+      "IsRateLimitingEnabled": false,
+      "RateLimiterOptions": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.RateLimiter.WebSimpleRateLimiterOptions, DT_ConfigurationRepository",
+        "RejectedStatusCode": 429,
+        "ControllerLimit": 1000000000
+      }
+    },
+    "AsClient": {
+      "$type": "DT.ConfigurationRepository.Configuration.Adapter.WebClientConfig, DT_ConfigurationRepository",
+      "ToPlatform": false,
+      "FromPlatform": true,
+      "ReadCookiesToPlatform": false,
+      "ReadHeadersToPlatform": false,
+      "ResponceCodes": [],
+      "Path": "https://api.telegram.org/bot7574405977:AAFkFJyLtN9F1H5blJK2ds-Wa6qVec5wQMA",
+      "AuthTypeSoap": "Auto",
+      "AuthTypeRest": "Anonymous",
+      "AuthPath": null,
+      "Account": {
+        "$type": "DT.ClusterConfiguration.Account, DT_Core",
+        "UserName": "ОбменДОКОРП",
+        "Password": null,
+        "PasswordNew": null,
+        "UseCredential": false
+      },
+      "ThreadCountFromPlatform": 0,
+      "Authorization": null,
+      "ProxyOptions": {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.ProxyOptions, DT_ConfigurationRepository",
+        "UseCustomProxy": false,
+        "ProxyAddress": "",
+        "BypassProxyOnLocal": true,
+        "UseDefaultCredentials": true,
+        "NeedServerAuthentication": true
+      },
+      "SetClientCertificateFromFile": false,
+      "AllowIfServerCertificateValidationFailed": false
+    },
+    "ReplyStoreTime": 0,
+    "PublishSwagger": true,
+    "TimeOut": 60,
+    "Auth": {
+      "$type": "DT.ClusterConfiguration.AuthenticationConfig, DT_Core",
+      "Enabled": false,
+      "UsePasswordHash": false
+    },
+    "HandlersList": [
+      {
+        "$type": "DT.ConfigurationRepository.Configuration.Adapter.HandlerInfoConfig, DT_Core",
+        "HandlerId": "1e360846-a2cb-4be9-844f-847a3d45815b",
+        "IsStarted": true
+      }
+    ],
+    "SendingStrategy": null
+  },
+  "IsActive": true,
+  "FolderId": "d3f6c474-3832-4bd2-8474-1ab85653f3ad",
+  "Servers": [
+    ""
+  ],
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "EntityId": "57811589-ecf5-4bbb-a24f-efcfe6f6b11c",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "NippleErrorsBot",
+  "Description": "NippleErrorsBot",
+  "Comment": null,
+  "Version": 8,
+  "TagsCollection": []
+}

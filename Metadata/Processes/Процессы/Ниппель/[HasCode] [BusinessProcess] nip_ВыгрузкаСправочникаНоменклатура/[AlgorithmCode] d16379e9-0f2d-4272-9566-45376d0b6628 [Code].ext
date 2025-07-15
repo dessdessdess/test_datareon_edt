@@ -1,0 +1,13 @@
+JObject jsonObject = InitMessage.GetBodyAsObject();
+
+JArray itemsArray = (JArray)jsonObject["items"];
+
+foreach (var item in itemsArray) {
+    
+    JObject obj = (JObject)item["object"];
+                
+    ДополнительнаяВыгрузкаДанных.Ссылка = (string)obj["link"];
+    ДополнительнаяВыгрузкаДанных.ОбъектМетаданных = "Номенклатура";
+    ДополнительнаяВыгрузкаДанных.ИмяТаблицы = "ХарактеристикаНоменклатурыНиппель";
+    
+}

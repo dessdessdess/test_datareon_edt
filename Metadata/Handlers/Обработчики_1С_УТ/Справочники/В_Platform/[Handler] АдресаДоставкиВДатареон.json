@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] АдресаДоставкиВДатареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.АдресаДоставки",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "1a872a97-a743-4889-ace4-c58895435266",
+    "Name": "АдресаДоставки",
+    "Id": "6533bc8b-7f0d-4f8e-8325-6e2c418d4eea",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "8e7440d0-8171-405b-b928-2403848b342b",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "АдресаДоставкиВДатареон",
+  "Description": "Спр. Адреса доставки в Datareon",
+  "Comment": "Сгенерировано на основании внешнего типа данных [1a872a97-a743-4889-ace4-c58895435266, АдресаДоставки] 17.06.2024 13:25:48",
+  "Version": 6,
+  "TagsCollection": []
+}

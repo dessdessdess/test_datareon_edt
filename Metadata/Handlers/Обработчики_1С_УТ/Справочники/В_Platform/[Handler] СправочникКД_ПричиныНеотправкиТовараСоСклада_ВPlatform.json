@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] СправочникКД_ПричиныНеотправкиТовараСоСклада_ВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.КД_ПричиныНеотправкиТовараСоСклада",
+  "SystemDataTypeId": "c08e1be4-72fa-4d28-8402-4ca88d5729a0",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "c08e1be4-72fa-4d28-8402-4ca88d5729a0",
+    "Name": "КД_ПричиныНеотправкиТовараСоСклада",
+    "Id": "7c3aa1ad-4d15-4f53-b0a9-7ddb387c8add",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "f4271afc-7113-4041-8861-94d78a4c03e4",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СправочникКД_ПричиныНеотправкиТовараСоСклада_ВPlatform",
+  "Description": "Выгрузка причин неотправки товара со склада из УТ в Datareon",
+  "Comment": "Сгенерировано на основании внешнего типа данных [c08e1be4-72fa-4d28-8402-4ca88d5729a0, КД_ПричиныНеотправкиТовараСоСклада] 07.06.2024 15:54:06",
+  "Version": 11,
+  "TagsCollection": []
+}

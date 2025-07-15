@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 2,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаСпрХарактеристикНоменклатурыИзУТ [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.ХарактеристикиНоменклатуры",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "ec344562-ce4c-480e-9f2c-d32e88374f7a",
+    "Name": "ХарактеристикиНоменклатуры",
+    "Id": "747e0519-f242-405c-a2e5-23bee5baa03e",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "cd43ba60-2fa5-4793-bf74-8ef261aec257",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаСпрХарактеристикНоменклатурыИзУТ",
+  "Description": "Выгрузка спр. Характеристики номенклатуры из УТ",
+  "Comment": "Сгенерировано на основании внешнего типа данных [ec344562-ce4c-480e-9f2c-d32e88374f7a, ХарактеристикиНоменклатуры] 24.06.2024 10:45:47",
+  "Version": 36,
+  "TagsCollection": []
+}

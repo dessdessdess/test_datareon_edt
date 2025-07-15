@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] СтатусЗаказаНаОтгрузку_WMSOUT [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "СтатусЗаказаНаОтгрузку",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "d5bc86c5-90b6-4a44-b0a5-4b9173991d33",
+    "Name": "СтатусыОтгрузкиТовара",
+    "Id": "54cb246c-647b-4708-bc99-88f64c93ffe1",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "26b71aeb-d8f5-4f55-9012-39b38baff7a7",
+  "EntityId": "cc14ed7f-cb18-409e-8ada-20ab9e4acc9e",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СтатусЗаказаНаОтгрузку_WMSOUT",
+  "Description": "СтатусЗаказаНаОтгрузку_WMSOUT",
+  "Comment": null,
+  "Version": 16,
+  "TagsCollection": []
+}

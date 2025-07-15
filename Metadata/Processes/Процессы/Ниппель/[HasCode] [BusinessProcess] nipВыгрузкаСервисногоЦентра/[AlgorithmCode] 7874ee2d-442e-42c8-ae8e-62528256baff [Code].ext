@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("users");
+InitMessage.SetDataType(Metadata.DataTypes.nipСотрудникиСервисногоЦентра);
+InitMessage.SetBody(request);

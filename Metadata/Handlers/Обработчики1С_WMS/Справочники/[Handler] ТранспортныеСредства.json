@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ТранспортныеСредства [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": "1a6e4edc-9fcb-4411-98a5-a3dafa558f5b",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "1a6e4edc-9fcb-4411-98a5-a3dafa558f5b",
+    "Name": "Транспорт",
+    "Id": "1666aeac-f199-4e34-8ff4-4b5ae18d36a7",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "334c710d-1e55-4855-b15d-c82a03a5b3b6",
+  "EntityId": "91d7d3a7-a422-4bfb-81df-f813e07d82b3",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ТранспортныеСредства",
+  "Description": "ТранспортныеСредства",
+  "Comment": null,
+  "Version": 4,
+  "TagsCollection": []
+}

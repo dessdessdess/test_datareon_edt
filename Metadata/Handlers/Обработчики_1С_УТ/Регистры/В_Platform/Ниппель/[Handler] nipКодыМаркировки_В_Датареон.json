@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipКодыМаркировки_В_Датареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "nipКодыМаркировки",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "8994ef65-2e80-4020-b939-ebe211037a1f",
+    "Name": "nipКодыМаркировки",
+    "Id": "0ddccede-0a37-4f66-9d2b-ccdce56e1096",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "565bf27d-0ed7-4fea-ab6a-e3ad190de408",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipКодыМаркировки_В_Датареон",
+  "Description": "(Ниппель) Коды маркировки в Datareon",
+  "Comment": "",
+  "Version": 33,
+  "TagsCollection": []
+}

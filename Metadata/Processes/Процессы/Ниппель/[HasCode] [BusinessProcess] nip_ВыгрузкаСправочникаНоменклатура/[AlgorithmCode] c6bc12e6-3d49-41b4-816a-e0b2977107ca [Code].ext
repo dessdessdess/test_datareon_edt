@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("nip_nomenclature_SH");
+InitMessage.SetDataType(Metadata.DataTypes.nipНоменклатураСХ);
+InitMessage.SetBody(request);

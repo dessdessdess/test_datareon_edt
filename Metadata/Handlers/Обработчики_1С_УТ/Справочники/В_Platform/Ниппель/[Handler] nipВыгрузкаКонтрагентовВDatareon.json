@@ -1,0 +1,48 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipВыгрузкаКонтрагентовВDatareon [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "КонтрагентыНиппель",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.VariableData, DT_Core",
+      "Id": "383630f0-d4e0-4652-90ea-9ab1e7f7f5c7",
+      "Name": "XAuthorization",
+      "Variable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "token t_nipple_iofflmlsdfruiinkl125efr9oigjer3211",
+        "Type": "Text",
+        "IsExact": true
+      }
+    }
+  ],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "4b313718-8c9a-4b59-b10b-09548dc6e419",
+    "Name": "nipКлиент",
+    "Id": "8240a27d-ce11-4a2c-ac27-c362afd1efea",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "15244a09-8828-4537-947d-21e79ab111e0",
+  "EntityId": "a4dacf58-4662-4d7c-a3dc-a897b3d546ef",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipВыгрузкаКонтрагентовВDatareon",
+  "Description": "(Ниппель) Выгрузка контрагентов в Datareon",
+  "Comment": null,
+  "Version": 24,
+  "TagsCollection": []
+}

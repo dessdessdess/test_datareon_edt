@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("working_hours");
+InitMessage.SetDataType(Metadata.DataTypes.nipВремяРаботыСервисногоЦентра);
+InitMessage.SetBody(request);

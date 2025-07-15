@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("working_hours_exception");
+InitMessage.SetDataType(Metadata.DataTypes.nipВремяРаботыСервисногоЦентраОтклонения);
+InitMessage.SetBody(request);

@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 4,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipСотрудникиСЦ_В_Датареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.ФизическиеЛица",
+  "SystemDataTypeId": "1f00f5bd-bd96-488d-9393-45a443118bd4",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "44991171-911a-4026-83ab-4cc7c5bb0716",
+    "Name": "СотрудникиСервисногоЦентра",
+    "Id": "f405196a-db7e-4a07-a7db-c75d90e23150",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "15244a09-8828-4537-947d-21e79ab111e0",
+  "EntityId": "5e5ef432-2fa9-4164-b463-e77c08d8d81e",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipСотрудникиСЦ_В_Датареон",
+  "Description": "(Ниппель) Сотрудники СЦ в Datareon",
+  "Comment": "Для выгрузки в Ниппель",
+  "Version": 40,
+  "TagsCollection": []
+}

@@ -1,0 +1,34 @@
+{
+  "$type": "DT.ClusterConfiguration.NodeModule, DT_Core",
+  "Config": {
+    "$type": "DT.ConfigurationRepository.Configuration.ModuleConfiguration.ProcessesConfig, DT_ConfigurationRepository",
+    "UseBalancing": false,
+    "ProcessParams": {
+      "$type": "DT.MdmCommon.ProcessParams, DT_Core",
+      "ThreadCount": null,
+      "MaxSleepingProcessCount": 100,
+      "MaxSleepingProcessMB": 200,
+      "MaxUnprocessedQueueMB": 30,
+      "MinWaitBeforeSleep": 10000,
+      "MaxRunnedRequests": 50,
+      "MaxSleepTimeMinutes": 1440,
+      "MinMessageCountForThread": null
+    },
+    "CommonParams": null,
+    "SendingStrategy": null
+  },
+  "IsActive": true,
+  "FolderId": "6fa7db37-d000-4e7e-8f10-1bdc253008b7",
+  "GlobalDiagnosticParams": null,
+  "LocalDiagnosticParams": null,
+  "LogStorageParams": null,
+  "ArchiveStorageParams": null,
+  "TrackingStorageParams": null,
+  "EntityId": "6adb81d8-dd90-4c88-876d-c76ac75c142e",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Процессы",
+  "Description": "Сервис обработки процессов",
+  "Comment": "",
+  "Version": 15,
+  "TagsCollection": []
+}

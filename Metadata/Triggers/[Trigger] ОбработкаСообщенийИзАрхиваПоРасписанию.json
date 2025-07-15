@@ -1,0 +1,32 @@
+{
+  "$type": "DT.MdmMetadata.BusinessProcesses.RunConditions.Trigger, DT_Core",
+  "IsActive": true,
+  "Functions": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.RunConditions.FunctionCondition, DT_Core",
+      "FunctionId": "ee4049d7-3c1b-400d-b9ce-b04fdb667f76",
+      "Values": []
+    }
+  ],
+  "Systems": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.RunConditions.SystemCondition, DT_Core",
+      "SystemId": "23a21db5-ad1d-4ae4-b77f-cea48ddb5488",
+      "HandlerId": "00000000-0000-0000-0000-000000000000",
+      "Values": []
+    }
+  ],
+  "Events": null,
+  "Logs": null,
+  "SchedulerExpression": "0 0/10 * ? * * *",
+  "ImmediateStart": false,
+  "TriggerType": "Scheduler",
+  "FolderId": "c02e3e3e-71eb-4d2c-ad7c-a6fecd520465",
+  "EntityId": "302140e1-7154-4449-9c8c-524dd433ae7d",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ОбработкаСообщенийИзАрхиваПоРасписанию",
+  "Description": "Обработка сообщений из архива по расписанию",
+  "Comment": "",
+  "Version": 4,
+  "TagsCollection": []
+}

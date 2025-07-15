@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ДокументРеализацияТоваровУслуг_ВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Документ.РеализацияТоваровУслуг",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "eb179039-36dd-4edf-a5fb-3a4985e0ec0c",
+    "Name": "РеализацияТоваровУслуг",
+    "Id": "7ef26d83-4c0f-4022-a415-abf688ac9293",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "858cbda3-7697-45a7-ba23-5a3f103e57d9",
+  "EntityId": "546c0e47-1589-48b7-b481-a929fc083895",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ДокументРеализацияТоваровУслуг_ВPlatform",
+  "Description": "Документ РеализацияТоваровУслуг (В Platform)",
+  "Comment": "Сгенерировано на основании внешнего типа данных [7d9e506b-f860-47af-8f31-9778cc597b1b, РеализацияТоваровУслуг] 16.07.2024 10:45:32",
+  "Version": 22,
+  "TagsCollection": []
+}

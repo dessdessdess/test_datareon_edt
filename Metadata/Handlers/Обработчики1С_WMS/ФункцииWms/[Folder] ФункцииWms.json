@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "859e30ba-f55d-4a13-a488-2bb8a93e7da6",
+  "ChildrenType": "Handlers",
+  "EntityId": "0bcd98a2-7f3b-4fb7-8d6f-5a3e1f7adc3e",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ФункцииWms",
+  "Description": "Функции WMS",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

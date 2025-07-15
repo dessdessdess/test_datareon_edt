@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] wmsКонтрагентаИзУТ [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "КонтрагентыВМС",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "bf765a07-71de-4a59-ac5c-228390d4ab71",
+    "Name": "wmsКонтрагенты",
+    "Id": "0936b6ac-124c-454a-b2aa-766a56f55b84",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "1ebe07c3-25f6-4d11-b6b3-d7670ad24b2f",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "wmsКонтрагентаИзУТ",
+  "Description": "(WMS) Выгрузка контрагента из УТ",
+  "Comment": null,
+  "Version": 12,
+  "TagsCollection": []
+}

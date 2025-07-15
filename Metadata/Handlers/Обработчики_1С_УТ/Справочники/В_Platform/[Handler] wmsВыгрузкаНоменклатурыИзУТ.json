@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] wmsВыгрузкаНоменклатурыИзУТ [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "НоменклатураВМС",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "b154e229-e871-4cf3-bfa5-e47026989fbd",
+    "Name": "wmsНоменклатура",
+    "Id": "0936b6ac-124c-454a-b2aa-766a56f55b84",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "c7f3f950-63c4-411d-8f33-d4e09995361c",
+  "EntityId": "a29bd5a9-16af-49bf-8d38-b5cdb45b8057",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "wmsВыгрузкаНоменклатурыИзУТ",
+  "Description": "(WMS) Выгрузка номенклатуры из УТ",
+  "Comment": null,
+  "Version": 4,
+  "TagsCollection": []
+}

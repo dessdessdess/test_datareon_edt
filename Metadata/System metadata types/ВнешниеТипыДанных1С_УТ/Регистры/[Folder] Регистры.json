@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "dcad8bba-69cc-4703-9467-415897b5f2b8",
+  "ChildrenType": "SystemsMetadataTypes",
+  "EntityId": "1e8d4077-4579-4366-90f3-aef8200617fe",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Регистры",
+  "Description": "Регистры",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

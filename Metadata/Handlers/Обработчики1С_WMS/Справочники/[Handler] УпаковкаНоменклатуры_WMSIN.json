@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "FromPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] УпаковкаНоменклатуры_WMSIN [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": "20368237-469c-46bf-8c37-f43a8dc3737d",
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "20368237-469c-46bf-8c37-f43a8dc3737d",
+    "Name": "ЕдиницыИзмерения",
+    "Id": "4f2ca6ef-caf3-4614-bd04-8e7092510256",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "334c710d-1e55-4855-b15d-c82a03a5b3b6",
+  "EntityId": "402407ad-d837-45fb-8d55-ad6c90305c0d",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "УпаковкаНоменклатуры_WMSIN",
+  "Description": "УпаковкаНоменклатуры_WMSIN",
+  "Comment": null,
+  "Version": 4,
+  "TagsCollection": []
+}

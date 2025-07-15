@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("terminals");
+InitMessage.SetDataType(Metadata.DataTypes.nipНастройкиПостов);
+InitMessage.SetBody(request);

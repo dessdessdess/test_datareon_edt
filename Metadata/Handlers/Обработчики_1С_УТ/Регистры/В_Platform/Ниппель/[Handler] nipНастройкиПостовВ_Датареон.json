@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 1,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipНастройкиПостовВ_Датареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "РегистрСведений.НастройкиПостов",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "6d8bd70e-0830-4416-be04-660a6286dcec",
+    "Name": "НастройкиПостов",
+    "Id": "4bb1c5b1-c21e-4657-892c-db304e39ce4e",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "8df0e22b-6022-46db-8bc5-4a4ad6e3c400",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipНастройкиПостовВ_Датареон",
+  "Description": "(Ниппель) Настройки постов в Datareon",
+  "Comment": "Сгенерировано на основании внешнего типа данных [de5cc8ae-26e2-4272-b0c5-46b970df6fea, НастройкиПостов] 04.09.2024 14:30:30",
+  "Version": 21,
+  "TagsCollection": []
+}

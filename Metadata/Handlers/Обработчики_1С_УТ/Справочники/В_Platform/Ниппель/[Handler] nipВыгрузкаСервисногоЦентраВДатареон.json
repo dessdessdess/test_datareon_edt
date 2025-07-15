@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipВыгрузкаСервисногоЦентраВДатареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Справочник.Подразделения",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "30d844a3-e49c-4510-bd8f-d8e572a9100e",
+    "Name": "СервисныеЦентры",
+    "Id": "9fc94482-d584-4cab-8596-db9320692748",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "15244a09-8828-4537-947d-21e79ab111e0",
+  "EntityId": "8d213b3c-ed6f-4aa0-8c69-4398599f850d",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipВыгрузкаСервисногоЦентраВДатареон",
+  "Description": "(Ниппель) Выгрузка сервисного центра в Datareon",
+  "Comment": "Для выгрузки сервисных центров в Ниппель",
+  "Version": 74,
+  "TagsCollection": []
+}

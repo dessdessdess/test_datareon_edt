@@ -1,0 +1,36 @@
+
+JObject jsonObject = JObject.Parse(InitMessage.GetBodyAsString());
+
+JArray itemsArray = (JArray)jsonObject["items"];
+
+var chunks = itemsArray
+            .Select(item => item)
+            .Chunk(1000)
+            .ToList();
+
+List<JArray> chunkedArrays = new List<JArray>();
+
+foreach (var chunk in chunks)
+{
+    // Создаем новый JArray для каждого чанка
+    JArray currentChunkArray = new JArray(chunk);
+    chunkedArrays.Add(currentChunkArray);
+
+}
+
+foreach (var chunked in chunkedArrays) {
+
+    JObject items = new JObject();
+    items["items"] = chunked;
+
+    var newMessage  = new Message(); 
+    
+    newMessage.CreationDate = InitMessage.CreationDate;
+    newMessage.Id = Guid.NewGuid().ToString();
+
+    newMessage.SetDataType(Metadata.DataTypes.nipАвтомобилиКлиента);    
+    newMessage.SetBody(items.ToString()); 
+    
+    SetOutMessage(newMessage);
+
+}

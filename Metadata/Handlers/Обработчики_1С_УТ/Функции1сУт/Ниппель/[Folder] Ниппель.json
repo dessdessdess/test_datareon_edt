@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "1fdf15e6-7658-4773-b32b-5ba6ae3bc147",
+  "ChildrenType": "Handlers",
+  "EntityId": "4b839686-a760-4464-bd8a-bd789622f0db",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Ниппель",
+  "Description": "Ниппель",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

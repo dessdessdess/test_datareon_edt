@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ЗапросДвиженийWMS_IN_ВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ДанныеПоДвижениям",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "f80e8bb0-b3fc-4ea4-b2af-46ddf91e7a76",
+    "Name": "СтруктураДвиженийВМС",
+    "Id": "b69563ed-282d-41e2-81c4-f3f214b60f6e",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "f5a5ae46-06ee-4487-bdf3-66963f3d23bc",
+  "EntityId": "838d6cc9-2fe3-44b7-a7fe-d83eed273a94",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ЗапросДвиженийWMS_IN_ВPlatform",
+  "Description": "Запрос движений WMS_IN (В Platform)",
+  "Comment": null,
+  "Version": 27,
+  "TagsCollection": []
+}

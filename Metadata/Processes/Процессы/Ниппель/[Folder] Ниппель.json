@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "3f638c8e-db5e-499c-8203-e2f1ec68503e",
+  "ChildrenType": "Processes",
+  "EntityId": "7fc9b890-26d2-4e78-9295-4e27f0ed9071",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Ниппель",
+  "Description": "Ниппель",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

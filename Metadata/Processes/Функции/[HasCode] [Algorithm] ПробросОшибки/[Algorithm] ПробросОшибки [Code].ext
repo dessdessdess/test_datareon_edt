@@ -1,0 +1,23 @@
+//InitMessage.SetProperty(MessageProperties.ResponseMessage, ОписаниеОшибки);
+
+
+
+int index = ОписаниеОшибки.IndexOf("код ответа");
+
+if (index != -1) {
+
+    string substring = ОписаниеОшибки.Substring(index + "код ответа".Length).Trim();
+
+    if (!string.IsNullOrEmpty(substring)) {
+
+    string statusCode = new string(substring.TakeWhile(char.IsDigit).ToArray());
+
+    //Logger.Debug(statusCode);
+
+    КодОтвета = statusCode;
+
+    }
+
+}
+
+//InitMessage.SetProperty(MessageProperties.ResponseCode, КодОтвета);

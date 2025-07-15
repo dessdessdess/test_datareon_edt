@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ЗапросДанных_WMSOUT [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ЗапросДанных",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "1e806443-2ae9-4ff5-b37a-fa6b8db9cab0",
+    "Name": "ЗапросДанных",
+    "Id": "541aee2b-96c8-42a9-b83f-f43983700ca3",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "f5a5ae46-06ee-4487-bdf3-66963f3d23bc",
+  "EntityId": "976a2448-2ee6-473e-8ccd-f65997e51d93",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ЗапросДанных_WMSOUT",
+  "Description": "ЗапросДанных_WMSOUT",
+  "Comment": null,
+  "Version": 3,
+  "TagsCollection": []
+}

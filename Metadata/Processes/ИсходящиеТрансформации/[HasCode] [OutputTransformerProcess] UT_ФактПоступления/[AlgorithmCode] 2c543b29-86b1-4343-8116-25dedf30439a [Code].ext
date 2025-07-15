@@ -1,0 +1,35 @@
+var ArrayOb = InitMessage.GetBodyAsArrayOfObjects(); //Массив объектов из тела сообщения
+var Length = InitMessage.BodyArrayCount(); //Размер массива
+int i;
+//InitMessage.AddProperty("тест", Length); 
+for (i = 0; i < Length; i++) {
+    var ob = ArrayOb[i]; //Очередной объект из массива типа JToken
+    var newMessage = new Message(); //Новае сообщение
+    newMessage.CreationDate = InitMessage.CreationDate; //Дата создания сообщения
+    newMessage.SetDataType(Metadata.DataTypes.ФактПоступления); //Установка типа данных сообщения
+    var bodyString = ob.ToString(); //Тело очередного объекта в виде строки
+    newMessage.SetBody(bodyString); //Установка тела нового сообщения из строки
+    newMessage.Id = Guid.NewGuid().ToString();// Генерация уин
+    
+    //Получение свойств из очередного объекта
+    var СтатусСв = ob["Свойства"]["СтатусСв"].ToString(); //Свойство статус из тела очередного объекта
+    var ТипСв = ob["Свойства"]["ТипСв"].ToString();
+    var КлассСв = ob["Свойства"]["КлассСв"].ToString();
+    var ОтправительСв = ob["Свойства"]["ОтправительСв"].ToString();
+    var ИмяОтправителяСв = ob["Свойства"]["ИмяОтправителяСв"].ToString();
+    var ПолучательСв = ob["Свойства"]["ПолучательСв"].ToString();
+    var ИмяПолучателяСв = ob["Свойства"]["ИмяПолучателяСв"].ToString();
+
+    //Установка свойств
+    newMessage.AddProperty("Статус", СтатусСв);  
+    newMessage.AddProperty("Тип", ТипСв);
+    newMessage.AddProperty("Класс", КлассСв); 
+    newMessage.AddProperty("Отправитель", ОтправительСв); 
+    newMessage.AddProperty("ИмяОтправителя", ИмяОтправителяСв); 
+    newMessage.AddProperty("Получатель", ПолучательСв); 
+    newMessage.AddProperty("ИмяПолучателя", ИмяПолучателяСв); 
+    //Transport.RegisterMessage(newMessage);
+    SetOutMessage(newMessage);
+
+
+}

@@ -1,0 +1,77 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerWebClient, DT_Core",
+  "MethodType": "Post",
+  "AuthRequired": false,
+  "RouteTemplate": "service/nipple/api/v4/season_storage_operations/import",
+  "Timeout": 10000,
+  "IsTemporary": true,
+  "ResponseAsBytes": false,
+  "Integration": "FromPlatform",
+  "Type": "WebClient",
+  "Code": null,
+  "WaitResponse": true,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": "63ffc756-e9b4-4c36-9bd0-5ce3cd5e3b49",
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 128,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "XAuthorization",
+      "Id": "1ea309d0-53c2-4892-a34e-feff43682c4c",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "IsHeader": "true",
+        "HeaderName": "X-Authorization"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.VariableData, DT_Core",
+      "Id": "1ea309d0-53c2-4892-a34e-feff43682c4c",
+      "Name": "XAuthorization",
+      "Variable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "token t_nipple_iofflmlsdfruiizxcf1nkl121efr9oigjer321",
+        "Type": "Text",
+        "IsExact": true
+      }
+    }
+  ],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "63ffc756-e9b4-4c36-9bd0-5ce3cd5e3b49",
+    "Name": "УслугиСезонногоХранения",
+    "Id": "f43c0d19-dcad-4804-ab99-e72cdeb2a711",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "6ebadbc6-06ea-482a-b76f-4d9e5a241687",
+  "EntityId": "abaf2763-1a19-4d82-98fd-8263ca2c3671",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаУслугСХИзДатареон",
+  "Description": "Выгрузка услуг СХ из Datareon",
+  "Comment": "Для выгрузки услуг СХ в Ниппель",
+  "Version": 33,
+  "TagsCollection": []
+}

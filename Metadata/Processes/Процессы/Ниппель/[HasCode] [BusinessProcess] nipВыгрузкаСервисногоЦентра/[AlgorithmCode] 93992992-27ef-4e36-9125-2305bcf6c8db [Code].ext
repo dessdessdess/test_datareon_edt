@@ -1,0 +1,18 @@
+
+JObject jsonObject = InitMessage.GetBodyAsObject();
+
+// Извлекаем массив items
+JArray itemsArray = (JArray)jsonObject["items"];
+        
+// Проходим по всем элементам массива и получаем значения link и name
+foreach (var item in itemsArray) {
+    
+    JObject obj = (JObject)item["object"];
+
+    string link = (string)obj["link"];
+    string name = (string)obj["name"];
+            
+    СервисныйЦентр.Ссылка = new Guid(link);
+    СервисныйЦентр.Наименование = name;
+    
+}

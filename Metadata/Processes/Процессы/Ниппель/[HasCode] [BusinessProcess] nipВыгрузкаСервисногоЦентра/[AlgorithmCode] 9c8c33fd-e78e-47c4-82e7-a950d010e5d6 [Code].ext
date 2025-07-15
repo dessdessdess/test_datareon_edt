@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("material_prices");
+InitMessage.SetDataType(Metadata.DataTypes.nipЦеныМатериалов);
+InitMessage.SetBody(request);

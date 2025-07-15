@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] СтатусРейса_WMSOUT [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "СтатусРейса",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "09d136a0-24ce-42a5-88e7-ffeaccfa129d",
+    "Name": "СтатусМаршрутногоЛиста",
+    "Id": "2b7eff83-2eae-44d6-8ae1-82ed6f004a1a",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "26b71aeb-d8f5-4f55-9012-39b38baff7a7",
+  "EntityId": "380a121e-971a-4835-8bfe-2d9857fc4684",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "СтатусРейса_WMSOUT",
+  "Description": "СтатусРейса_WMSOUT",
+  "Comment": null,
+  "Version": 13,
+  "TagsCollection": []
+}

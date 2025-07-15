@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаВозвратовПоставщикуВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Документ.ВозвратТоваровПоставщику",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "07d6e313-55c1-491a-9510-6298238410bf",
+    "Name": "ВозвратТоваровПоставщику",
+    "Id": "b9b03594-b901-47b2-a8d6-9e34b7afe0b5",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "858cbda3-7697-45a7-ba23-5a3f103e57d9",
+  "EntityId": "c29d05b8-ec15-420b-853a-37de32fb5fce",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаВозвратовПоставщикуВPlatform",
+  "Description": "Выгрузка возвратов поставщику (В Platform)",
+  "Comment": null,
+  "Version": 25,
+  "TagsCollection": []
+}

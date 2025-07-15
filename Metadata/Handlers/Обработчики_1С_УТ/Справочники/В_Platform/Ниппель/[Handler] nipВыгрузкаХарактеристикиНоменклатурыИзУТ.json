@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipВыгрузкаХарактеристикиНоменклатурыИзУТ [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ХарактеристикаНоменклатурыНиппель",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "ed90835c-1fa6-4d98-bea7-66f91d7bc9c4",
+    "Name": "ХарактеристикаНиппель",
+    "Id": "8240a27d-ce11-4a2c-ac27-c362afd1efea",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "15244a09-8828-4537-947d-21e79ab111e0",
+  "EntityId": "8ca523c2-dad0-451f-9c62-c34c24bd3759",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipВыгрузкаХарактеристикиНоменклатурыИзУТ",
+  "Description": "(Ниппель) Выгрузка характеристики номенклатуры из УТ",
+  "Comment": null,
+  "Version": 12,
+  "TagsCollection": []
+}

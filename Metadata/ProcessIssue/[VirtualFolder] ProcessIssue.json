@@ -1,0 +1,12 @@
+{
+  "$type": "DT.VirtualFolder, DT_Core",
+  "Type": "ProcessIssues",
+  "FolderId": "5880843a-ea26-4e72-b2c8-da5b80c58036",
+  "EntityId": "629e4a82-dc94-459a-b6bb-2dcb443d64ec",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Задачи ожидающие ответа",
+  "Description": null,
+  "Comment": null,
+  "Version": 2,
+  "TagsCollection": null
+}

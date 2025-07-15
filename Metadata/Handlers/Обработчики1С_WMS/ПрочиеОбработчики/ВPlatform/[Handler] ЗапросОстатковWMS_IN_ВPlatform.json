@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ЗапросОстатковWMS_IN_ВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Остатки",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "a3a463b9-1fba-4769-bead-76794cbd7bc5",
+    "Name": "СтруктураЗапросаОстатков",
+    "Id": "d20596bf-3780-4f94-b444-510d9c899aa8",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "f5a5ae46-06ee-4487-bdf3-66963f3d23bc",
+  "EntityId": "a3e5a2c6-d42f-4874-b9a3-650d41caac8f",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ЗапросОстатковWMS_IN_ВPlatform",
+  "Description": "Запрос остатков WMS_IN (В Platform)",
+  "Comment": null,
+  "Version": 107,
+  "TagsCollection": []
+}

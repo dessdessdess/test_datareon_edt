@@ -1,0 +1,342 @@
+{
+  "$type": "DT.MdmMetadata.Types.DataType, DT_Core",
+  "FieldsTemplates": [],
+  "Categories": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.CategoriesGroupField, DT_Core",
+    "Codes": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "Items": [],
+    "Name": "Категории",
+    "Id": "940e4a84-ff79-43c9-9a96-e0ae6d1c756a",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "PortalSettings": {
+    "$type": "DT.MdmMetadata.Types.PortalSettings, DT_Core",
+    "FormElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GridHistoryChangesId": "00000000-0000-0000-0000-000000000000",
+    "DataSourceHistoryChangeObjectConfigId": "00000000-0000-0000-0000-000000000000",
+    "FormElementViewerReadOnlyId": "00000000-0000-0000-0000-000000000000",
+    "GridElementViewerId": "00000000-0000-0000-0000-000000000000",
+    "GroupHistoryChangeDataOn": false,
+    "DisplayName": "",
+    "Description": null,
+    "FullDescription": null,
+    "VisibleCategoryAttributesAsFlagOn": true,
+    "TypesCategoryColumnView": {},
+    "LinkFieldAsNotSelector": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Boolean, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "DisplayFieldNames": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "SeparateCategoriesTypeViewOnForm": {},
+    "LinkFieldTypeView": {}
+  },
+  "FolderId": "b2ea0915-138c-421a-9d47-655569836ffe",
+  "ClassId": 13,
+  "IsObject": false,
+  "ServiceIds": [],
+  "IndexGroups": [],
+  "FuzzySearch": [],
+  "Fields": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.ComplexField, DT_Core",
+      "Codes": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "ok": 1,
+        "errors": 2
+      },
+      "ChildFields": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+          "DataTypeId": "67e12f15-8a19-41e0-b1e9-b3e65ceae08b",
+          "Name": "ok",
+          "Id": "cd41e5ff-dfe6-46df-bc40-edda9c4097a9",
+          "IsArray": true,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.ComplexField, DT_Core",
+          "Codes": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+            "link": 1,
+            "updated": 2
+          },
+          "ChildFields": [
+            {
+              "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+              "Type": "String",
+              "DecimalOptions": null,
+              "StringOptions": {
+                "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+                "Length": 36,
+                "MaxLength": true,
+                "AutoTrim": true
+              },
+              "DateTimeOptions": null,
+              "Name": "link",
+              "Id": "af7c2c12-ca7e-4213-af61-c6c0573fcad8",
+              "IsArray": false,
+              "IsRequired": false,
+              "IsNullable": false,
+              "Description": "",
+              "Properties": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+              },
+              "AttributeId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+              "Type": "String",
+              "DecimalOptions": null,
+              "StringOptions": {
+                "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+                "Length": 14,
+                "MaxLength": true,
+                "AutoTrim": true
+              },
+              "DateTimeOptions": null,
+              "Name": "updated",
+              "Id": "6a1db746-9a3b-4233-be0c-d3968c688dfc",
+              "IsArray": false,
+              "IsRequired": false,
+              "IsNullable": false,
+              "Description": "",
+              "Properties": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+              },
+              "AttributeId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "Name": "errors",
+          "Id": "aa6a8bed-012d-47c5-918b-1ea09c8acce9",
+          "IsArray": true,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Name": "data",
+      "Id": "d9995b9f-b1f3-49ee-aae5-ca1ab33dbbf1",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.ComplexField, DT_Core",
+      "Codes": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+        "__meta": 1
+      },
+      "ChildFields": [
+        {
+          "$type": "DT.MdmMetadata.BusinessProcesses.Fields.ComplexField, DT_Core",
+          "Codes": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+            "id": 1,
+            "datetime": 2,
+            "utime": 3,
+            "method": 4,
+            "uri": 5,
+            "ip": 6
+          },
+          "ChildFields": [
+            {
+              "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+              "Type": "String",
+              "DecimalOptions": null,
+              "StringOptions": {
+                "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+                "Length": 36,
+                "MaxLength": false,
+                "AutoTrim": false
+              },
+              "DateTimeOptions": null,
+              "Name": "id",
+              "Id": "f2e0e288-c036-4d1d-a713-f37ca0377e7f",
+              "IsArray": false,
+              "IsRequired": false,
+              "IsNullable": false,
+              "Description": "",
+              "Properties": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+              },
+              "AttributeId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+              "Type": "String",
+              "DecimalOptions": null,
+              "StringOptions": {
+                "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+                "Length": 50,
+                "MaxLength": false,
+                "AutoTrim": false
+              },
+              "DateTimeOptions": null,
+              "Name": "datetime",
+              "Id": "2c9b831f-a138-4f46-8d91-55a3f5b402f5",
+              "IsArray": false,
+              "IsRequired": false,
+              "IsNullable": false,
+              "Description": "",
+              "Properties": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+              },
+              "AttributeId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+              "Type": "String",
+              "DecimalOptions": null,
+              "StringOptions": {
+                "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+                "Length": 50,
+                "MaxLength": false,
+                "AutoTrim": false
+              },
+              "DateTimeOptions": null,
+              "Name": "utime",
+              "Id": "322ed86a-2bb2-4b7e-859d-0d1288b044e2",
+              "IsArray": false,
+              "IsRequired": false,
+              "IsNullable": false,
+              "Description": "",
+              "Properties": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+              },
+              "AttributeId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+              "Type": "String",
+              "DecimalOptions": null,
+              "StringOptions": {
+                "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+                "Length": 50,
+                "MaxLength": false,
+                "AutoTrim": false
+              },
+              "DateTimeOptions": null,
+              "Name": "method",
+              "Id": "218da14b-20c9-45f6-8e67-f4f47060109e",
+              "IsArray": false,
+              "IsRequired": false,
+              "IsNullable": false,
+              "Description": "",
+              "Properties": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+              },
+              "AttributeId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+              "Type": "String",
+              "DecimalOptions": null,
+              "StringOptions": {
+                "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+                "Length": 50,
+                "MaxLength": false,
+                "AutoTrim": false
+              },
+              "DateTimeOptions": null,
+              "Name": "uri",
+              "Id": "16b65894-33d3-4720-81c6-a6bbc65a3e28",
+              "IsArray": false,
+              "IsRequired": false,
+              "IsNullable": false,
+              "Description": "",
+              "Properties": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+              },
+              "AttributeId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+              "Type": "String",
+              "DecimalOptions": null,
+              "StringOptions": {
+                "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+                "Length": 50,
+                "MaxLength": false,
+                "AutoTrim": false
+              },
+              "DateTimeOptions": null,
+              "Name": "ip",
+              "Id": "19bb69ad-1097-4722-89fb-18c5921a7a77",
+              "IsArray": false,
+              "IsRequired": false,
+              "IsNullable": false,
+              "Description": "",
+              "Properties": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+              },
+              "AttributeId": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "Name": "__meta",
+          "Id": "6ee585d6-2db0-41fe-9d6f-1ef06ce40458",
+          "IsArray": false,
+          "IsRequired": false,
+          "IsNullable": false,
+          "Description": "",
+          "Properties": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+          },
+          "AttributeId": "00000000-0000-0000-0000-000000000000"
+        }
+      ],
+      "Name": "_debugbar",
+      "Id": "0938916f-134f-4e69-9e5d-aca18912c8f9",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Interfaces": [],
+  "CheckFunctions": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.Guid, System.Private.CoreLib],[System.Collections.Generic.List`1[[System.Guid, System.Private.CoreLib]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "StoreChanges": false,
+  "StoreStates": false,
+  "Codes": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Int32, System.Private.CoreLib]], System.Private.CoreLib",
+    "data": 2,
+    "_debugbar": 3
+  },
+  "EntityId": "0b071dd6-3fb2-4398-971f-11f5fd10380b",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipОтветОтБэкаНиппеля",
+  "Description": "(Ниппель) Ответ от бэка Ниппеля",
+  "Comment": null,
+  "Version": 24,
+  "TagsCollection": []
+}

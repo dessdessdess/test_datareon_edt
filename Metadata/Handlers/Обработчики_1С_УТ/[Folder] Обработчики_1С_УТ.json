@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "b639dc9c-3676-4d02-a37e-72b467e859d6",
+  "ChildrenType": "Handlers",
+  "EntityId": "c7b2043e-d016-4849-ad1f-bbd91f271bec",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Обработчики_1С_УТ",
+  "Description": "Обработчики 1С_УТ",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("orderStatus");
+InitMessage.SetDataType(Metadata.DataTypes.nipСтатусЗаказаПокупателя);
+InitMessage.SetBody(request);

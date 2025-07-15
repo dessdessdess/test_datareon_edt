@@ -1,0 +1,80 @@
+
+
+// JObject jsonRequest = JObject.Parse(request);
+// JArray items = (JArray)jsonRequest["items"];
+
+// List<string> notFoundLinks = new List<string>();
+
+JObject jsonResp = JObject.Parse(response);
+JObject data = (JObject)jsonResp["data"];
+
+JArray JSON_errors = (JArray)data["errors"];
+
+errorsString = JSON_errors.ToString();
+
+foreach (var JSON_error in JSON_errors) {
+    
+    string link = (string)JSON_error["link"];
+    string updated = (string)JSON_error["updated"];
+
+    nip_error error = new nip_error();
+    error.link = link;
+    error.updated = updated;
+
+    JArray messages = (JArray)JSON_error["message"];
+
+    foreach (var message in messages) {
+
+        nip_report report = new nip_report();
+        report.code = (string)message["code"];
+        report.field = (string)message["field"];
+        report.msg = (string)message["msg"];
+        report.value = (string)message["value"];
+        report.value_type = (string)message["value_type"];
+
+        // if (report.code == "not_found") {
+
+        //    notFoundLinks.Add(link); 
+
+        //     var filteredItems2 = new JArray(items.Where(item => item["object"]?["link"]?.ToString() == link));
+        //     foreach (var item2 in filteredItems2) {
+        //        report.item = item2.ToString();
+        //     }
+           
+        // }
+
+        error.reports.Add(report);
+
+    }
+
+    errors.Add(error);
+    
+}
+
+//var filteredItems = new JArray(items.Where(item => notFoundLinks.Contains(item["object"]?["link"]?.ToString())));
+//filteredRequest = new JObject{["items"] = filteredItems}.ToString();
+
+//errorsString = JSON_errors.ToString().Replace("-", @"\\-");
+
+// static string EscapeMarkdownV2(string text)
+//     {
+//         // Список специальных символов, которые нужно экранировать
+//         char[] specialChars = { '_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!' };
+
+//         // Создаем StringBuilder для эффективной работы со строками
+//         StringBuilder escapedText = new StringBuilder();
+
+//         // Проходим по каждому символу в тексте
+//         foreach (char c in text)
+//         {
+//             // Если символ специальный, добавляем перед ним обратный слэш
+//             if (Array.Exists(specialChars, x => x == c))
+//             {
+//                 escapedText.Append('\\');
+//             }
+//             // Добавляем сам символ
+//             escapedText.Append(c);
+//         }
+
+//         return escapedText.ToString();
+//     }

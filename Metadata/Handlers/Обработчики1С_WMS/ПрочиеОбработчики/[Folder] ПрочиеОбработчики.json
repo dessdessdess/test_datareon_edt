@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "859e30ba-f55d-4a13-a488-2bb8a93e7da6",
+  "ChildrenType": "Handlers",
+  "EntityId": "c7cc9a38-90b6-4092-b827-8f93d0de4bdb",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ПрочиеОбработчики",
+  "Description": "Прочие обработчики",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

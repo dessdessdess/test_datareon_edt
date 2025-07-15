@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаУслугСХВДатареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "РегистрСведений.КД_СоответствияЗначений",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "63ffc756-e9b4-4c36-9bd0-5ce3cd5e3b49",
+    "Name": "УслугиСезонногоХранения",
+    "Id": "ff81880a-2abe-4c8a-acbf-1b6299fdb832",
+    "IsArray": true,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "07df15ab-1aea-417f-9e44-ae60a2781778",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаУслугСХВДатареон",
+  "Description": "Выгрузка услуг СХ в Datareon",
+  "Comment": "Сгенерировано на основании внешнего типа данных [63ffc756-e9b4-4c36-9bd0-5ce3cd5e3b49, УслугиСезонногоХранения] 19.08.2024 13:12:17",
+  "Version": 11,
+  "TagsCollection": []
+}

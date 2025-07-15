@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "b639dc9c-3676-4d02-a37e-72b467e859d6",
+  "ChildrenType": "Handlers",
+  "EntityId": "859e30ba-f55d-4a13-a488-2bb8a93e7da6",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Обработчики1С_WMS",
+  "Description": "Обработчики1С_WMS",
+  "Comment": null,
+  "Version": 5,
+  "TagsCollection": null
+}

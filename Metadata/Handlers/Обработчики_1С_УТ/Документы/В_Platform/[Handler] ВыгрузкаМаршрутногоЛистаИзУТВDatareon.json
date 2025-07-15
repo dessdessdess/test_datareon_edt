@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 9,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаМаршрутногоЛистаИзУТВDatareon [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Документ.МаршрутныйЛист",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SystemMetadataField, DT_Core",
+    "SystemMetadataId": "b026e771-0225-488f-af32-a63c2110a57a",
+    "Name": "МаршрутныйЛист",
+    "Id": "86b0115e-9017-4d43-a18e-d8e86f6aa557",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "858cbda3-7697-45a7-ba23-5a3f103e57d9",
+  "EntityId": "14cc3741-3bfb-4652-b839-051b7452b462",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаМаршрутногоЛистаИзУТВDatareon",
+  "Description": "Выгрузка маршрутного листа из УТ в Datareon",
+  "Comment": "Сгенерировано на основании внешнего типа данных [b026e771-0225-488f-af32-a63c2110a57a, МаршрутныйЛист] 05.07.2024 11:00:17",
+  "Version": 30,
+  "TagsCollection": []
+}

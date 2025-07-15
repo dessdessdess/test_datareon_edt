@@ -1,0 +1,77 @@
+{
+  "$type": "DT.MdmMetadata.Types.HandlerWebClient, DT_Core",
+  "MethodType": "Post",
+  "AuthRequired": true,
+  "RouteTemplate": "service/nipple/api/v4/manufacturers/import",
+  "Timeout": 10000,
+  "IsTemporary": true,
+  "ResponseAsBytes": false,
+  "Integration": "FromPlatform",
+  "Type": "WebClient",
+  "Code": "[Handler] nipВыгрузкаПроизводителяАвтомобилейИзДатареон [Code].ext",
+  "WaitResponse": true,
+  "SubscriptionObject": "",
+  "SystemDataTypeId": null,
+  "Parameters": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.Fields.SimpleField, DT_Core",
+      "Type": "String",
+      "DecimalOptions": null,
+      "StringOptions": {
+        "$type": "DT.MdmMetadata.Types.StringOptions, DT_TypeBuilder.Entities",
+        "Length": 128,
+        "MaxLength": false,
+        "AutoTrim": true
+      },
+      "DateTimeOptions": null,
+      "Name": "XAuthorization",
+      "Id": "feebf0c1-488a-4ea2-a1eb-059ab1283b92",
+      "IsArray": false,
+      "IsRequired": false,
+      "IsNullable": false,
+      "Description": "",
+      "Properties": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+        "IsHeader": "true",
+        "HeaderName": "X-Authorization"
+      },
+      "AttributeId": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "Values": [
+    {
+      "$type": "DT.MdmMetadata.BusinessProcesses.VariableData, DT_Core",
+      "Id": "feebf0c1-488a-4ea2-a1eb-059ab1283b92",
+      "Name": "XAuthorization",
+      "Variable": {
+        "$type": "DT.MdmMetadata.BusinessProcesses.StepVariables.StepVariable, DT_Core",
+        "TextDefinition": "token t_nipple_iofflmlsdfruiinkl125efr9oigjer3211",
+        "Type": "Text",
+        "IsExact": true
+      }
+    }
+  ],
+  "DataFromPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "83263ffc-4b9b-459b-b011-c31f743831c5",
+    "Name": "nipПроизводительАвтомобилей",
+    "Id": "04c2485e-1676-480b-a1f8-1a56210a18f1",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "DataToPlatform": null,
+  "FolderId": "3f3ad6d4-63e4-4b10-8414-78296d92270a",
+  "EntityId": "94701c31-7bf3-444c-9bf0-b22ae96ea4fd",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipВыгрузкаПроизводителяАвтомобилейИзДатареон",
+  "Description": "(Ниппель) Выгрузка производителя автомобилей из Datareon",
+  "Comment": "Для выгрузки производителя автомобилей в Ниппель",
+  "Version": 43,
+  "TagsCollection": []
+}

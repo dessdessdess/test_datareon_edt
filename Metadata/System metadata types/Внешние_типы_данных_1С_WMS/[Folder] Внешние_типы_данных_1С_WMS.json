@@ -1,0 +1,12 @@
+{
+  "$type": "DT.Folder, DT_Core",
+  "FolderId": "7616639a-b65a-455f-8844-bcd6779bed03",
+  "ChildrenType": "SystemsMetadataTypes",
+  "EntityId": "0e755fef-cb9a-470c-a0eb-8c1ad5a249c9",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Внешние_типы_данных_1С_WMS",
+  "Description": "Внешние типы данных 1С_WMS",
+  "Comment": null,
+  "Version": 1,
+  "TagsCollection": null
+}

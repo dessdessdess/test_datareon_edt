@@ -1,0 +1,12 @@
+{
+  "$type": "DT.VirtualFolder, DT_Core",
+  "Type": "SendingStrategies",
+  "FolderId": "5880843a-ea26-4e72-b2c8-da5b80c58036",
+  "EntityId": "43acfc1d-d989-4438-b6f8-9da083d7c989",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "Стратегии",
+  "Description": null,
+  "Comment": null,
+  "Version": 2,
+  "TagsCollection": null
+}

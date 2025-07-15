@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 6,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ВыгрузкаПеремещениеТоваровИзУтВPlatform [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "Документ.ПеремещениеТоваров",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "82f9ee49-97e2-49af-93cd-4c3e88b2ecc1",
+    "Name": "ПеремещениеТоваров",
+    "Id": "2daa0123-e192-4815-a0cf-beddd5012a2d",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "858cbda3-7697-45a7-ba23-5a3f103e57d9",
+  "EntityId": "2604647d-7057-4095-bd43-e8606dcb4f54",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ВыгрузкаПеремещениеТоваровИзУтВPlatform",
+  "Description": "Выгрузка перемещение товаров из УТ (В Platform)",
+  "Comment": "Сгенерировано на основании внешнего типа данных [13cfadb3-8321-4c1b-87b9-779ebe4191cc, ПеремещениеТоваров] 15.07.2024 14:52:59",
+  "Version": 30,
+  "TagsCollection": []
+}

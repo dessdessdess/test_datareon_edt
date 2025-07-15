@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": false,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] nipТТН_1С_В_Датареон [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "nipТТНв1С",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "06169f7f-d314-4f26-b694-d8f474fd2a3f",
+    "Name": "nipТТНв1С",
+    "Id": "0ddccede-0a37-4f66-9d2b-ccdce56e1096",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "4f681c56-7f9e-49ea-a00f-c4f69273f2bc",
+  "EntityId": "a79ae9ce-e16e-44b6-9c8b-7ab7b4adb987",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "nipТТН_1С_В_Датареон",
+  "Description": "(Ниппель) ТТН 1С в Datareon",
+  "Comment": "",
+  "Version": 3,
+  "TagsCollection": []
+}

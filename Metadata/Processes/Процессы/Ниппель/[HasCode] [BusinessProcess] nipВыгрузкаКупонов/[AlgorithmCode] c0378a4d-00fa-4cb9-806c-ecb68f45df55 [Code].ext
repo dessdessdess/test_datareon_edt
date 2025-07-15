@@ -1,0 +1,3 @@
+string request = InitMessage.GetProperty<string>("КупоныОперации");
+InitMessage.SetDataType(Metadata.DataTypes.nipКупоныОперации);
+InitMessage.SetBody(request);

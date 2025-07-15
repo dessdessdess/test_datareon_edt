@@ -1,0 +1,24 @@
+// Список специальных символов, которые нужно экранировать
+        char[] specialChars = { '_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!' };
+
+        // Создаем StringBuilder для эффективной работы со строками
+        StringBuilder escapedTextBuilder = new StringBuilder();
+
+        // Проходим по каждому символу в тексте
+        foreach (char c in text)
+        {
+            // Если символ специальный, добавляем перед ним обратный слэш
+            if (Array.Exists(specialChars, x => x == c))
+            {
+                escapedTextBuilder.Append('\\');
+            }
+            // Добавляем сам символ
+            escapedTextBuilder.Append(c);
+
+            if (escapedTextBuilder.Length == 2048) {
+                break;
+            }
+
+        }
+
+    escapedText = escapedTextBuilder.ToString();

@@ -1,0 +1,36 @@
+{
+  "$type": "DT.MdmMetadata.Types.Handler1c, DT_Core",
+  "KeepObjectLink": true,
+  "ProcessingOrder": 0,
+  "Integration": "ToPlatform",
+  "Type": "Subscription1C",
+  "Code": "[Handler] ЗапросНаВыпускНовыхКМ_WMSOUT [Code].ext",
+  "WaitResponse": false,
+  "SubscriptionObject": "ЗапросНовыхКМВКИС",
+  "SystemDataTypeId": null,
+  "Parameters": [],
+  "Values": [],
+  "DataFromPlatform": null,
+  "DataToPlatform": {
+    "$type": "DT.MdmMetadata.BusinessProcesses.Fields.StructureField, DT_Core",
+    "DataTypeId": "db5111f7-2507-4cad-97cd-0d82ed9029d1",
+    "Name": "ЗапросНаВыпускНовыхКМ",
+    "Id": "3826d89b-45b9-4fae-bb15-135aaa39ba8b",
+    "IsArray": false,
+    "IsRequired": false,
+    "IsNullable": false,
+    "Description": "",
+    "Properties": {
+      "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib"
+    },
+    "AttributeId": "00000000-0000-0000-0000-000000000000"
+  },
+  "FolderId": "67f737da-6b59-43f0-a2f8-c12bd5d5fe19",
+  "EntityId": "3d5dd22a-8e3b-4c96-af33-b5dcc5464bb4",
+  "ClusterId": "c10ff86e-715b-4384-8a0c-f3cd82e3d74e",
+  "Name": "ЗапросНаВыпускНовыхКМ_WMSOUT",
+  "Description": "Запрос на выпуск новых КМ_WMSOUT",
+  "Comment": "DEV.0030. Разработка процесса запроса нового КМ в УТ",
+  "Version": 15,
+  "TagsCollection": []
+}
